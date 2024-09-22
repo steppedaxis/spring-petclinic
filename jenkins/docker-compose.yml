@@ -6,6 +6,8 @@ services:
         ports:
             - '8080:8080'
             - '50000:50000'
+        volumes:
+            - /home/rea/devops-final-project/spring-petclinic/jenkins/jenkins_data:/var/jenkins_home  # added a persistent volume
         networks: 
             - jb
     jenkins-slave:
@@ -26,3 +28,6 @@ services:
 
 networks: 
   jb:
+
+volumes:
+  jenkins_data:  # This is the volume that will persist Jenkins data
