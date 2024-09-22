@@ -6,4 +6,4 @@ copy . /app
 CMD ["sonar-scanner", "-Dsonar.projectBaseDir=/app"]
 
 # ------------- ARTIFACT BUILD -------------
-RUN ./mvnw package
+# RUN ./mvnw package
