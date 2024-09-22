@@ -1,7 +1,4 @@
 DEVOPS FINAL PROJECT:
 
-1) cd to jenkins directory
-2) run docker compose up -d to install jenkins + slave
-3) cd to sonarqube
-4) run docker compose up -d to install sonarqube
-5) jenkins will be avilable at 127.0.0.1:8080, and sonarqube at 127.0.0.1:9000
+1) run the run_jenkins_sonarqube.sh to install both jenkins and sonarqube
+2) jenkins already has the realted job in a persistant volume under jenkins/jenkins/jenkins_jobs
