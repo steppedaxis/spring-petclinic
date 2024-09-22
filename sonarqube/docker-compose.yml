@@ -1,0 +1,16 @@
+version: '3'
+services:
+  sonarqube: 
+    ports: 
+      - '9000:9000' 
+    volumes: 
+      - sonarqube:/opt/sonarqube/
+    image: sonarqube
+    networks: 
+      - jb
+
+volumes: 
+  sonarqube:
+
+networks: 
+  jb:
