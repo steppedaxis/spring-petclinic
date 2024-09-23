@@ -4,7 +4,7 @@ pipeline {
         stage('sonarqube scanner stage') {
             steps {
                 script {
-                    sh "docker build -t spring-petclinic -f ./Dockerfile ."
+                    sh "docker build -t spring-petclinic -f /home/rea/devops-final-project/spring-petclinic/app/Dockerfile ."
                 }
             }
         }
