@@ -8,13 +8,5 @@ pipeline {
                 }
             }
         }
-        stage('run stage') {
-            steps {
-                script {
-                    // Build the artifact in a separate stage
-                    sh "docker run --rm spring-petclinic"
-                }
-            }
-        }
     }
 }
