@@ -202,7 +202,7 @@
               <configLocation>src/checkstyle/nohttp-checkstyle.xml</configLocation>
               <sourceDirectories>${basedir}</sourceDirectories>
               <includes>**/*</includes>
-              <excludes>**/.git/**/*,**/.idea/**/*,**/target/**/,**/.flattened-pom.xml,**/sonar-project.properties,**/*.class</excludes>
+              <excludes>**/.git/**/*,**/.idea/**/*,**/target/**/,**/.flattened-pom.xml,**/sonar-project.properties,**/sonar-project.properties,**/jenkins/**/*,**/*.class</excludes>
               <propertyExpansion>
                 config_loc=${basedir}/src/checkstyle/
               </propertyExpansion>
