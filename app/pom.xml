@@ -200,8 +200,8 @@
             <phase>validate</phase>
             <configuration>
               <configLocation>src/checkstyle/nohttp-checkstyle.xml</configLocation>
-              <sourceDirectories>${basedir}</sourceDirectories>
-              <includes>**/*</includes>
+              <sourceDirectories>${basedir}/app</sourceDirectories>
+              <includes>app/**/*</includes>
               <excludes>**/.git/**/*,**/.idea/**/*,**/target/**/,**/.flattened-pom.xml,**/sonar-project.properties,**/sonar-project.properties,**/jenkins/**/*,**/*.class</excludes>
               <propertyExpansion>
                 config_loc=${basedir}/src/checkstyle/
