@@ -15,7 +15,7 @@ issues i ran into:
               <includes>app/**/*</includes>
               <excludes>**/.git/**/*,**/.idea/**/*,**/target/**/,**/.flattened-pom.xml,**/sonar-project.properties,**/sonar-project.properties,**/jenkins/**/*,**/*.class</excludes>
     
-    because my folder structes were different.
+    because my folder structure is different.
 
 2) sonarqube properties file sonar.host.url=http://host.docker.internal:9000 - i had to change it to the docker local internal dns so during the build so the sonarqube stage will run, if i tried http://sonarqube:9000, it would fail at dns level and would not reach the sonarqube server, mainly because that i run it locally.
 
