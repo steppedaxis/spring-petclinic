@@ -9,7 +9,7 @@ RUN sonar-scanner -Dsonar.projectBaseDir=/app
 # ------------- ARTIFACT BUILD -------------
 FROM openjdk:17-jdk as build-artifact
 WORKDIR /app
-COPY . /app
+COPY --from=sonarqube /app /app
 RUN ./mvnw package
 
 # --------- APP RUN --------
