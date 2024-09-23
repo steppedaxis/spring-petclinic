@@ -1,0 +1,18 @@
+commit 769cd4655c5bd4ed62a9441b21f390349dde76b6
+tree 49607dc2952ea6b81f8b2c94a9434f771a543754
+parent 3d9f89ceaa6c9c5bf02f01fa439550370bdcd865
+author Rea Nir <nir.rea@gmail.com> 2024-09-24 02:07:25 +0300
+committer Rea Nir <nir.rea@gmail.com> 2024-09-24 02:07:25 +0300
+
+    dqdw
+
+
+:100644 100644 064ffb862bc5641576e3bc95cb2010eebb760c34 a8fb6d94e0bb73aaa3118e3d6f1984f1feaef8b6 M	app/Dockerfile
+:000000 100644 0000000000000000000000000000000000000000 76e93215a9fc2d1da7aae89cb9ba69bd653fe3ec A	jenkins/jenkins/jenkins_jobs/build-run-and-upload-to-dockerhub/builds/24/build.xml
+:000000 100644 0000000000000000000000000000000000000000 9c9ee704ecc34c960bbd6686c1fe20e85d11b961 A	jenkins/jenkins/jenkins_jobs/build-run-and-upload-to-dockerhub/builds/24/changelog4064903220557521461.xml
+:000000 100644 0000000000000000000000000000000000000000 024a27f87c4e5a92ff8f89d939bf655b86e56781 A	jenkins/jenkins/jenkins_jobs/build-run-and-upload-to-dockerhub/builds/24/log
+:000000 100644 0000000000000000000000000000000000000000 a042dfa7c48a696a296f83059d6b1a1c8fdc484b A	jenkins/jenkins/jenkins_jobs/build-run-and-upload-to-dockerhub/builds/24/log-index
+:000000 100644 0000000000000000000000000000000000000000 e179885ef0bdbe2c1b1adc60bd6ac0c01124eaaa A	jenkins/jenkins/jenkins_jobs/build-run-and-upload-to-dockerhub/builds/24/workflow-completed/flowNodeStore.xml
+:100644 100644 b7a9c213f46b9689da0dad72f4ece0df26a68388 8ef11fb56fc39730a3345ca30026fb5b4a2a05a0 M	jenkins/jenkins/jenkins_jobs/build-run-and-upload-to-dockerhub/builds/permalinks
+:100644 100644 a45fd52cc5891570d6299fab38643103c3955474 7273c0fa8c522b7eed7762a353d46f7768e9b6f2 M	jenkins/jenkins/jenkins_jobs/build-run-and-upload-to-dockerhub/nextBuildNumber
+:160000 160000 aee33d5ddf335801b58eeb7154378e2b014d4ae9 3d9f89ceaa6c9c5bf02f01fa439550370bdcd865 M	jenkins/volume/workspace/build-run-and-upload-to-dockerhub
