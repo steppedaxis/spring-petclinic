@@ -15,7 +15,7 @@
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2205.vc9522a_9d5711">
-      <stagesUUID>61690db9-38fe-4a01-b517-3de7a58c5124</stagesUUID>
+      <stagesUUID>74a71d76-9e2d-4d88-b4c4-22a0bdad5896</stagesUUID>
       <pipelineDefs>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2205.vc9522a_9d5711">
           <stages>
@@ -71,7 +71,7 @@
                 </branches>
               </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
             </stages>
-            <uuid>61690db9-38fe-4a01-b517-3de7a58c5124</uuid>
+            <uuid>74a71d76-9e2d-4d88-b4c4-22a0bdad5896</uuid>
           </stages>
           <agent>
             <agentType>
@@ -90,7 +90,7 @@
           <string>origin/main</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@5.0.0">
-              <sha1>032d2f617a2394c53d4c4b999381b84a73dca027</sha1>
+              <sha1>6d8221b0eb868397a14e894c3a51933fb6f72fb6</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -99,7 +99,7 @@
               </branches>
             </marked>
             <revision reference="../marked"/>
-            <hudsonBuildNumber>13</hudsonBuildNumber>
+            <hudsonBuildNumber>14</hudsonBuildNumber>
           </hudson.plugins.git.util.Build>
         </entry>
       </buildsByBranchName>
@@ -118,11 +118,11 @@
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
   </actions>
-  <queueId>25</queueId>
-  <timestamp>1727127156466</timestamp>
-  <startTime>1727127156470</startTime>
+  <queueId>27</queueId>
+  <timestamp>1727127607491</timestamp>
+  <startTime>1727127607501</startTime>
   <result>FAILURE</result>
-  <duration>277569</duration>
+  <duration>14892</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
@@ -152,23 +152,23 @@
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>302302384</long>
+        <long>266975308</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>51917564</long>
+        <long>188095782</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>8640278177</long>
+        <long>2195330807</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>7827818</long>
+        <long>22235328</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>8011231434</long>
+        <long>1677415853</long>
       </entry>
     </timings>
     <internalCalls class="sorted-set">
@@ -258,7 +258,7 @@
       </scm>
       <node>docker-slave-af0a2cd275dd</node>
       <workspace>/home/jenkins/workspace/build-run-and-upload-to-dockerhub</workspace>
-      <changelogFile>/var/jenkins_home/jobs/build-run-and-upload-to-dockerhub/builds/13/changelog15873900487251537183.xml</changelogFile>
+      <changelogFile>/var/jenkins_home/jobs/build-run-and-upload-to-dockerhub/builds/14/changelog12205896957040055011.xml</changelogFile>
       <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
   </checkouts>

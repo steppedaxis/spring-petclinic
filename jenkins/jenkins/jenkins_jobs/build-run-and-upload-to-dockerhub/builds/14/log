@@ -10,19 +10,9 @@ Running on [8mha:////4N085ZhhIn5O06It9QIRQV17ihoGqVRJki2GaI+SR71VAAAAsx+LCAAAAA
 The recommended git tool is: git
 using credential steppedaxis
 Fetching changes from the remote Git repository
-Checking out Revision 15d98c28efaafb483ddc8d360ef64eb22319512a (origin/main)
-Commit message: "ddwqd"
- > git rev-parse --resolve-git-dir /home/jenkins/workspace/build-run-and-upload-to-dockerhub/.git # timeout=10
- > git config remote.origin.url https://github.com/steppedaxis/spring-petclinic.git # timeout=10
-Fetching upstream changes from https://github.com/steppedaxis/spring-petclinic.git
- > git --version # timeout=10
- > git --version # 'git version 2.34.1'
-using GIT_ASKPASS to set credentials 
- > git fetch --tags --force --progress -- https://github.com/steppedaxis/spring-petclinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
- > git rev-parse origin/main^{commit} # timeout=10
- > git config core.sparsecheckout # timeout=10
- > git checkout -f 15d98c28efaafb483ddc8d360ef64eb22319512a # timeout=10
- > git rev-list --no-walk 6c48c3d3b9284a3bc082d67a37708a3aa5611951 # timeout=10
+Checking out Revision 6d8221b0eb868397a14e894c3a51933fb6f72fb6 (origin/main)
+Commit message: "dqdqw"
+First time build. Skipping changelog.
 [8mha:////4IK+cBQI+Jw38Wp/qvU4ZirvY68P2e3MPH0yuIcYRH78AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
 [8mha:////4CAfDKHVgPZvysVMFZi8wH7/3vLjpGIWtgZyEfPPzFBQAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
 [8mha:////4OxflRXI8ywlifiykTT7ZZL+3+Ud9kRbwM7HN3XX0cMQAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
@@ -32,119 +22,95 @@ using GIT_ASKPASS to set credentials
 [8mha:////4JGFKTVP6kVHHUJaUmuTAhScjuY79mKwiIjlNE3h0tJWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
 [8mha:////4GOKOHSq4pvV6OXpbmKLYX4pqEc6yzIk7id3BO3UrRocAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
 [8mha:////4JzsS7dhdxQBePaNb8+J0sbhcbx8ktsR1ETGUsJukfmIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
+ > git rev-parse --resolve-git-dir /home/jenkins/workspace/build-run-and-upload-to-dockerhub/.git # timeout=10
+ > git config remote.origin.url https://github.com/steppedaxis/spring-petclinic.git # timeout=10
+Fetching upstream changes from https://github.com/steppedaxis/spring-petclinic.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/steppedaxis/spring-petclinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6d8221b0eb868397a14e894c3a51933fb6f72fb6 # timeout=10
 + docker build -t spring-petclinic -f app/Dockerfile .
 #1 [internal] load build definition from Dockerfile
-#1 sha256:c019c1784be09ac2b8f70c2b5c5f8687bf0630aba16f7509b9ed7d0d7837dcef
-#1 transferring dockerfile: 612B done
+#1 sha256:501f6bb515335a162ea8de0dcd4a029b330247a69dc1dff847fb298e3989d7b2
+#1 transferring dockerfile: 618B done
 #1 DONE 0.0s
 
 #2 [internal] load metadata for docker.io/library/openjdk:17-jdk
 #2 sha256:033a3c32702ded5c4f188f3ba5569acd418281aa6ac9ba5b30d8697d17d5de51
-#2 DONE 1.2s
+#2 DONE 1.0s
 
 #3 [internal] load metadata for docker.io/sonarsource/sonar-scanner-cli:latest
 #3 sha256:6659297a2df4e0bc9882d9a9c2bf2baf2de20a680265e0b717e6dfc40ae896ed
-#3 DONE 1.2s
+#3 DONE 1.0s
 
 #4 [internal] load .dockerignore
-#4 sha256:3381633bfefdd96fb237ab05c025d5567591357a495055ae1840a54d66f1b494
+#4 sha256:156211f0c09831401bdef28393ad3b76256fee6faca4eeb62c1a3fe313a4daa4
 #4 transferring context: 2B done
 #4 DONE 0.0s
-
-#13 [sonarqube 1/5] FROM docker.io/sonarsource/sonar-scanner-cli:latest@sha256:0bc49076468d2955948867620b2d98d67f0d59c0fd4a5ef1f0afc55cf86f2079
-#13 sha256:22dc9b1b6cf1ca69986c429dffb137ab4f4211efd69b07f7a094ed9ffc35ef3e
-#13 DONE 0.0s
 
 #16 [build-artifact 1/4] FROM docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8
 #16 sha256:a745a85c24a9ac654f5d5af419ee62cdd8c0c7b038380bbb5eb51be22ddb7a0f
 #16 DONE 0.0s
 
+#13 [sonarqube 1/5] FROM docker.io/sonarsource/sonar-scanner-cli:latest@sha256:0bc49076468d2955948867620b2d98d67f0d59c0fd4a5ef1f0afc55cf86f2079
+#13 sha256:22dc9b1b6cf1ca69986c429dffb137ab4f4211efd69b07f7a094ed9ffc35ef3e
+#13 DONE 0.0s
+
 #11 [internal] load build context
-#11 sha256:45e8801bb4b02f14d619cb9239837425c19afdabc5b3d0724795f53e10f66ed5
-#11 transferring context: 11.61kB done
+#11 sha256:6ff4a587e5a103a4e58afda1d993ce244c42ead3404ed073b2f2e5db0d500882
+#11 transferring context: 11.65kB done
 #11 DONE 0.0s
 
 #12 [sonarqube 2/5] WORKDIR /app
 #12 sha256:1b0636b693dee629c710e5f35d4316f2b305980a3d8c234d6ed05cc64f0e71d1
 #12 CACHED
 
-#10 [sonarqube 3/5] COPY /app/sonar-project.properties ./sonar-project.properties
-#10 sha256:bdf20eece5c69b6eded527ce75a7a822e804e1700392f514f2255c9ccbe6ff1e
+#10 [sonarqube 3/5] COPY /sonarqube/sonar-project.properties ./sonar-project.properties
+#10 sha256:e1885f2d3fea944d653975b8df42401722382d8344c68da9f823a5351259f310
 #10 DONE 0.0s
 
 #9 [sonarqube 4/5] COPY /app /app
-#9 sha256:6b97b6740b1bafea89b2fd639f1ba6e9362c77cf19349610aa52c33bf2d35d88
+#9 sha256:211dd08c56182fa3d2172e6b550d3a5944756e2082ad5775a542fb8df71d59e2
 #9 DONE 0.0s
 
 #8 [sonarqube 5/5] RUN sonar-scanner -Dsonar.projectBaseDir=/app
-#8 sha256:fd7a1ebd974c7ff94a02e603900f9b75c97311f57e2e73da82ed43fac4baf2a3
-#8 0.298 INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
-#8 0.299 INFO: Project root configuration file: /app/sonar-project.properties
-#8 0.315 INFO: SonarScanner 5.0.1.3006
-#8 0.315 INFO: Java 17.0.11 Alpine (64-bit)
-#8 0.315 INFO: Linux 5.15.146.1-microsoft-standard-WSL2 amd64
-#8 0.452 INFO: User cache: /opt/sonar-scanner/.sonar/cache
-#8 0.530 ERROR: SonarQube server [https://host.docker.internal:9000] can not be reached
-#8 0.530 INFO: ------------------------------------------------------------------------
-#8 0.530 INFO: EXECUTION FAILURE
-#8 0.530 INFO: ------------------------------------------------------------------------
-#8 0.531 INFO: Total time: 0.234s
-#8 0.541 INFO: Final Memory: 5M/48M
-#8 0.541 INFO: ------------------------------------------------------------------------
-#8 0.541 ERROR: Error during SonarScanner execution
-#8 0.541 org.sonarsource.scanner.api.internal.ScannerException: Unable to execute SonarScanner analysis
-#8 0.542 	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.lambda$createLauncher$0(IsolatedLauncherFactory.java:85)
-#8 0.542 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
-#8 0.542 	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.createLauncher(IsolatedLauncherFactory.java:74)
-#8 0.542 	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.createLauncher(IsolatedLauncherFactory.java:70)
-#8 0.542 	at org.sonarsource.scanner.api.EmbeddedScanner.doStart(EmbeddedScanner.java:185)
-#8 0.542 	at org.sonarsource.scanner.api.EmbeddedScanner.start(EmbeddedScanner.java:123)
-#8 0.542 	at org.sonarsource.scanner.cli.Main.execute(Main.java:74)
-#8 0.542 	at org.sonarsource.scanner.cli.Main.main(Main.java:62)
-#8 0.542 Caused by: java.lang.IllegalStateException: Fail to get bootstrap index from server
-#8 0.542 	at org.sonarsource.scanner.api.internal.BootstrapIndexDownloader.getIndex(BootstrapIndexDownloader.java:42)
-#8 0.542 	at org.sonarsource.scanner.api.internal.JarDownloader.getScannerEngineFiles(JarDownloader.java:58)
-#8 0.542 	at org.sonarsource.scanner.api.internal.JarDownloader.download(JarDownloader.java:53)
-#8 0.542 	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.lambda$createLauncher$0(IsolatedLauncherFactory.java:76)
-#8 0.542 	... 7 more
-#8 0.542 Caused by: java.net.SocketException: Network unreachable
-#8 0.542 	at java.base/sun.nio.ch.Net.connect0(Native Method)
-#8 0.542 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
-#8 0.542 	at java.base/sun.nio.ch.Net.connect(Net.java:568)
-#8 0.542 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593)
-#8 0.542 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-#8 0.543 	at java.base/java.net.Socket.connect(Socket.java:633)
-#8 0.543 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.platform.Platform.connectSocket(Platform.java:130)
-#8 0.543 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RealConnection.connectSocket(RealConnection.java:263)
-#8 0.543 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RealConnection.connect(RealConnection.java:183)
-#8 0.543 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224)
-#8 0.543 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108)
-#8 0.543 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88)
-#8 0.543 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.Transmitter.newExchange(Transmitter.java:169)
-#8 0.543 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41)
-#8 0.543 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
-#8 0.543 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
-#8 0.543 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
-#8 0.544 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
-#8 0.544 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
-#8 0.544 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-#8 0.544 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
-#8 0.544 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88)
-#8 0.544 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
-#8 0.544 	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
-#8 0.544 	at org.sonarsource.scanner.api.internal.shaded.okhttp.RealCall.getResponseWithInterceptorChain(RealCall.java:221)
-#8 0.544 	at org.sonarsource.scanner.api.internal.shaded.okhttp.RealCall.execute(RealCall.java:81)
-#8 0.544 	at org.sonarsource.scanner.api.internal.ServerConnection.callUrl(ServerConnection.java:115)
-#8 0.544 	at org.sonarsource.scanner.api.internal.ServerConnection.downloadString(ServerConnection.java:99)
-#8 0.544 	at org.sonarsource.scanner.api.internal.BootstrapIndexDownloader.getIndex(BootstrapIndexDownloader.java:39)
-#8 0.544 	... 10 more
-#8 0.545 ERROR: 
-#8 0.545 ERROR: Re-run SonarScanner using the -X switch to enable full debug logging.
-#8 ERROR: process "/bin/sh -c sonar-scanner -Dsonar.projectBaseDir=/app" did not complete successfully: exit code: 1
+#8 sha256:d139862cc88a145fe4f537351081db9e6696a963f2dd82108c4b1f59d6a0391b
+#8 0.247 INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+#8 0.247 INFO: Project root configuration file: /app/sonar-project.properties
+#8 0.263 INFO: SonarScanner 5.0.1.3006
+#8 0.263 INFO: Java 17.0.11 Alpine (64-bit)
+#8 0.263 INFO: Linux 5.15.146.1-microsoft-standard-WSL2 amd64
+#8 0.394 INFO: User cache: /opt/sonar-scanner/.sonar/cache
+#8 1.035 INFO: Analyzing on SonarQube server 10.6.0.92116
+#8 1.035 INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+#8 1.499 INFO: Load global settings
+#8 1.613 INFO: Load global settings (done) | time=115ms
+#8 1.623 INFO: Server id: 147B411E-AZIalCKUh6IzC2T6weFs
+#8 1.630 INFO: Loading required plugins
+#8 1.630 INFO: Load plugins index
+#8 1.720 INFO: Load plugins index (done) | time=90ms
+#8 1.720 INFO: Load/download plugins
+#8 2.824 INFO: Load/download plugins (done) | time=1104ms
+#8 3.009 INFO: Process project properties
+#8 3.018 ERROR: Invalid value of sonar.sources for my_project_key
+#8 3.022 INFO: ------------------------------------------------------------------------
+#8 3.022 INFO: EXECUTION FAILURE
+#8 3.022 INFO: ------------------------------------------------------------------------
+#8 3.023 INFO: Total time: 2.777s
+#8 3.037 INFO: Final Memory: 8M/48M
+#8 3.037 INFO: ------------------------------------------------------------------------
+#8 3.037 ERROR: Error during SonarScanner execution
+#8 3.037 ERROR: The folder 'app' does not exist for 'my_project_key' (base directory = /app)
+#8 3.037 ERROR: 
+#8 3.037 ERROR: Re-run SonarScanner using the -X switch to enable full debug logging.
+#8 ERROR: process "/bin/sh -c sonar-scanner -Dsonar.projectBaseDir=/app" did not complete successfully: exit code: 2
 ------
  > [sonarqube 5/5] RUN sonar-scanner -Dsonar.projectBaseDir=/app:
 ------
-process "/bin/sh -c sonar-scanner -Dsonar.projectBaseDir=/app" did not complete successfully: exit code: 1
+process "/bin/sh -c sonar-scanner -Dsonar.projectBaseDir=/app" did not complete successfully: exit code: 2
 [8mha:////4MLCu/oOq9fGwD80Z14zaYYyom3dGrdC3tFC1vBn9P6HAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
 [8mha:////4BKuH+eLt0mvJllvIKFu3GhW1AbJRzGQcbS7QCqUpfkGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // script
 [8mha:////4MQ0VSVzPE3wYrLOY+JrQ9jUoINd/30WnpIMXDn2RLlOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
