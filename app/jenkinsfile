@@ -8,5 +8,21 @@ pipeline {
                 }
             }
         }
+        stage('docker login before pushing image to dockerhub') {
+            steps {
+                script {
+                    docker.withRegistry('https://index.docker.io/v1/', 'nirrea839')
+                }
+            }
+        }        
+        stage('tag and push image to dockerhub stage') {
+            steps {
+                script {
+                    sh "docker tag nirrea839/spring-petclinic:latest nirrea839/spring-petclinic:$BUILD_NUMBER"
+                    sh "docker push nirrea839/spring-petclinic:latest"
+                    sh "docker push nirrea839/spring-petclinic:$BUILD_NUMBER"
+                }
+            }
+        }
     }
 }
