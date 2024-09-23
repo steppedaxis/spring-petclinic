@@ -1,18 +1,18 @@
 pipeline {
     agent any
     stages {
-        stage('sonarqube scanner stage') {
+        stage('build stage, including sonarqube scanner analysis') {
             steps {
                 script {
                     sh "docker build -t spring-petclinic -f app/Dockerfile ."
                 }
             }
         }
-        stage('Build Artifact') {
+        stage('run stage') {
             steps {
                 script {
                     // Build the artifact in a separate stage
-                    sh "docker run --rm --network sonarqube_jb spring-petclinic"
+                    sh "docker run --rm spring-petclinic"
                 }
             }
         }
