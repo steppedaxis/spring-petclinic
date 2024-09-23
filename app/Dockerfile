@@ -1,7 +1,7 @@
 # ------------- SONARQUBE SCANNER -------------- 
 FROM sonarsource/sonar-scanner-cli:latest as sonarqube
 WORKDIR /app
-COPY /app/sonar-project.properties ./sonar-project.properties
+COPY /sonarqube/sonar-project.properties ./sonar-project.properties
 COPY /app /app
 RUN sonar-scanner -Dsonar.projectBaseDir=/app
 
