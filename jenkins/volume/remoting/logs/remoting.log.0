@@ -1,23 +1,23 @@
-Sep 24, 2024 10:22:39 PM hudson.remoting.Launcher$CuiListener status
+Sep 24, 2024 10:51:23 PM hudson.remoting.Launcher$CuiListener status
 INFO: Locating server among [http://jenkins:8080/]
-Sep 24, 2024 10:22:39 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+Sep 24, 2024 10:51:23 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
 INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
-Sep 24, 2024 10:22:39 PM hudson.remoting.Launcher$CuiListener status
+Sep 24, 2024 10:51:23 PM hudson.remoting.Launcher$CuiListener status
 INFO: Agent discovery successful
   Agent address: jenkins
   Agent port:    50000
   Identity:      70:12:f6:e6:ff:c7:27:af:cc:ea:c2:55:76:6c:01:2d
-Sep 24, 2024 10:22:39 PM hudson.remoting.Launcher$CuiListener status
+Sep 24, 2024 10:51:23 PM hudson.remoting.Launcher$CuiListener status
 INFO: Handshaking
-Sep 24, 2024 10:22:39 PM hudson.remoting.Launcher$CuiListener status
+Sep 24, 2024 10:51:23 PM hudson.remoting.Launcher$CuiListener status
 INFO: Connecting to jenkins:50000
-Sep 24, 2024 10:22:39 PM hudson.remoting.Launcher$CuiListener status
+Sep 24, 2024 10:51:23 PM hudson.remoting.Launcher$CuiListener status
 INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
-Sep 24, 2024 10:22:39 PM hudson.remoting.Launcher$CuiListener status
+Sep 24, 2024 10:51:23 PM hudson.remoting.Launcher$CuiListener status
 INFO: Trying protocol: JNLP4-connect
-Sep 24, 2024 10:22:39 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+Sep 24, 2024 10:51:23 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
 INFO: Waiting for ProtocolStack to start.
-Sep 24, 2024 10:22:40 PM hudson.remoting.Launcher$CuiListener status
+Sep 24, 2024 10:51:24 PM hudson.remoting.Launcher$CuiListener status
 INFO: Remote identity confirmed: 70:12:f6:e6:ff:c7:27:af:cc:ea:c2:55:76:6c:01:2d
-Sep 24, 2024 10:22:40 PM hudson.remoting.Launcher$CuiListener status
+Sep 24, 2024 10:51:24 PM hudson.remoting.Launcher$CuiListener status
 INFO: Connected
