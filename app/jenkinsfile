@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     docker.withRegistry('https://index.docker.io/v1/', 'nirrea839'){
-                        sh "docker tag spring-petclinic:latest nirrea839/spring-petclinic:latest"
+                        sh "docker tag nirrea839/spring-petclinic:latest nirrea839/spring-petclinic:latest"
                         sh "docker push nirrea839/spring-petclinic:latest"
                         sh "docker push nirrea839/spring-petclinic:${BUILD_NUMBER}"
                     }

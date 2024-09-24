@@ -1,0 +1,251 @@
+Started by user [8mha:////4FGxMnFKSPG0zUqXw7kBPEIDdlXpRdVD3yAWsMPz4+8ZAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained app/jenkinsfile from git https://github.com/steppedaxis/spring-petclinic.git
+[8mha:////4PPkQlnDsecekFN/Bl3ZveHhkp2FDN0a2xz+cJp3AuLfAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4PwtbBdrfLgYbg8+h47+8V1mlJEuJRWlaeBOhz4UFa1QAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4B8sD5lMuhyQIT3m0AdTNkH4zSYP5ywDY3FG+flXJFyfAAAAsx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzJEgYN/eT83ILSktQi/ZT85OzUIlUjl+KcxLJUIG2QZJZimWyYmpJolqIPAF/t09vdAAAA[0mdocker-slave-0b6d9c1eda6d in /home/jenkins/workspace/build-run-and-upload-to-dockerhub
+[8mha:////4H/bz/wbjk0sbZv2juFfIvn80+jTP8FO0p1EWbPuYKeoAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4DNFQ98vmcYNKtAHtuOc02s7AkYoL8FLK1feC/sJf6LYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Ez7+JO2aiZDm+5aYpBLoMQLDZPmSupqZHJRAetq0n0nAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4OWtA3uzF/6AlAXmtrgyNkD1aUTbI+f3T/Q89cp+WHWTAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+using credential steppedaxis
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/jenkins/workspace/build-run-and-upload-to-dockerhub/.git # timeout=10
+ > git config remote.origin.url https://github.com/steppedaxis/spring-petclinic.git # timeout=10
+Fetching upstream changes from https://github.com/steppedaxis/spring-petclinic.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/steppedaxis/spring-petclinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision ba12027da655fb8643ed76774806bdac1d53c738 (origin/main)
+Commit message: "dqw"
+ > git rev-parse origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba12027da655fb8643ed76774806bdac1d53c738 # timeout=10
+ > git rev-list --no-walk 9cbb8334e878f5a521d820cceb7c8aee2aaaebba # timeout=10
+[8mha:////4Bu1cvpspkny15m4Pgo5rucDNCACtX1+C/mbFFdVhhKIAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Ihvd6CSu0GXY+hbB3rtut87cXRieKpQFs9tLHiRfZl8AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4DsTJkMu+4DhGD8R5oL1sNcidtcFKQzjfjtd6l6fvRD1AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4CD+JXVfCtk2qh1orKNMgdRHrCdb7LNkIcqk5OzWJyEVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4FECXLTH+xpF2tgB/KOt+QZrB0Ic1yuy2ZUb3KG8IyCYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4IXL/PxqlAzJ077e1dEJFlikDLV6v7FAhw7ca76vPJkyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (build stage, including sonarqube scanner analysis)
+[8mha:////4CdoX8d6k1f6v9cyv/RlIEP80BFgvoqDoNCRi3YWv+FGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
+[8mha:////4DwkGkuYSivyAW34bi0BIjfi5NCewOyVpe7vZssZoZ4wAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4NqJU6CwGWTZM8CpSQ/U1/09VOVEtsL0he3IWYi251YZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ docker build -t nirrea839/spring-petclinic:latest -f app/Dockerfile .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:904a031273dd2e9a4d6f66f3516892fe2978478e38e332a9fdae921437a3588f
+#1 transferring dockerfile: 620B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/sonarsource/sonar-scanner-cli:latest
+#2 sha256:6659297a2df4e0bc9882d9a9c2bf2baf2de20a680265e0b717e6dfc40ae896ed
+#2 DONE 0.5s
+
+#3 [internal] load .dockerignore
+#3 sha256:5fcdedde45cacfe0b2b847a1cee686875c5df411bef6577baaa40324cb1f1edf
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#9 [1/5] FROM docker.io/sonarsource/sonar-scanner-cli:latest@sha256:605ea9a44a12ec328ad59a9b98c740cf0672a467b57ba2ae63cb85cc5831287e
+#9 sha256:a25d27ac29c3d9b155d17482e844b047edf231cf2b5af89014814327b58b5801
+#9 DONE 0.0s
+
+#7 [internal] load build context
+#7 sha256:9034ae2cc40d284de9eb3e1842c9f4b0acd701e95017764836edd26f2740c478
+#7 transferring context: 11.98kB done
+#7 DONE 0.0s
+
+#8 [2/5] WORKDIR /app
+#8 sha256:92087953825ad4762340499a4dd75da156efdba1a9433cbc685e46669569be0b
+#8 CACHED
+
+#6 [3/5] COPY app/sonar-project.properties ./sonar-project.properties
+#6 sha256:951669efcd080ea5c133e17c299fb6b3018aca3a702477bf2a9fa45e8ffa8500
+#6 CACHED
+
+#5 [4/5] COPY /app /app
+#5 sha256:42051dd20c705a950b96192090cb1288b9d8b832a3f57282227c721eaa4075ea
+#5 DONE 0.0s
+
+#4 [5/5] RUN sonar-scanner -Dsonar.projectBaseDir=/app
+#4 sha256:6d9e72d6f0c40f33100b848392aed9a28c384a78a617ebbd9b78873ba3249b5e
+#4 0.495 18:54:59.623 INFO  Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+#4 0.495 18:54:59.626 INFO  Project root configuration file: /app/sonar-project.properties
+#4 0.506 18:54:59.636 INFO  SonarScanner CLI 6.2.0.4584
+#4 0.507 18:54:59.637 INFO  Java 17.0.12 Amazon.com Inc. (64-bit)
+#4 0.508 18:54:59.638 INFO  Linux 5.15.146.1-microsoft-standard-WSL2 amd64
+#4 0.525 18:54:59.656 INFO  User cache: /opt/sonar-scanner/.sonar/cache
+#4 1.013 18:55:00.143 INFO  JRE provisioning: os[linux], arch[x86_64]
+#4 2.945 18:55:02.075 INFO  Communicating with SonarQube Server 10.6.0.92116
+#4 3.112 18:55:02.242 INFO  Starting SonarScanner Engine...
+#4 3.112 18:55:02.242 INFO  Java 17.0.11 Eclipse Adoptium (64-bit)
+#4 3.626 18:55:02.756 INFO  Load global settings
+#4 3.744 18:55:02.875 INFO  Load global settings (done) | time=118ms
+#4 3.747 18:55:02.877 INFO  Server id: 147B411E-AZIalCKUh6IzC2T6weFs
+#4 3.753 18:55:02.883 INFO  Loading required plugins
+#4 3.753 18:55:02.883 INFO  Load plugins index
+#4 3.833 18:55:02.963 INFO  Load plugins index (done) | time=80ms
+#4 3.833 18:55:02.963 INFO  Load/download plugins
+#4 4.965 18:55:04.095 INFO  Load/download plugins (done) | time=1131ms
+#4 5.119 18:55:04.249 INFO  Process project properties
+#4 5.123 18:55:04.253 INFO  Process project properties (done) | time=4ms
+#4 5.129 18:55:04.259 INFO  Project key: my_project_key
+#4 5.130 18:55:04.260 INFO  Base dir: /app
+#4 5.130 18:55:04.260 INFO  Working dir: /app/.scannerwork
+#4 5.134 18:55:04.264 INFO  Load project settings for component key: 'my_project_key'
+#4 5.213 18:55:04.343 INFO  Load project settings for component key: 'my_project_key' (done) | time=78ms
+#4 5.226 18:55:04.357 INFO  Load quality profiles
+#4 5.334 18:55:04.464 INFO  Load quality profiles (done) | time=108ms
+#4 5.352 18:55:04.483 WARN  SCM provider autodetection failed. Please use "sonar.scm.provider" to define SCM of your project, or disable the SCM Sensor in the project settings.
+#4 5.355 18:55:04.485 INFO  Load active rules
+#4 11.47 18:55:10.603 INFO  Load active rules (done) | time=6118ms
+#4 11.48 18:55:10.607 INFO  Load analysis cache
+#4 11.57 18:55:10.700 INFO  Load analysis cache (1.6 kB) | time=92ms
+#4 11.68 18:55:10.812 WARN  The properties 'sonar.login' and 'sonar.password' are deprecated and will be removed in the future. Please pass a token with the 'sonar.token' property instead.
+#4 11.69 18:55:10.824 INFO  Preprocessing files...
+#4 11.75 18:55:10.877 INFO  5 languages detected in 68 preprocessed files
+#4 11.75 18:55:10.877 INFO  39 files ignored because of inclusion/exclusion patterns
+#4 11.75 18:55:10.879 INFO  Loading plugins for detected languages
+#4 11.75 18:55:10.879 INFO  Load/download plugins
+#4 13.11 18:55:12.239 INFO  Load/download plugins (done) | time=1360ms
+#4 13.18 18:55:12.314 INFO  Load project repositories
+#4 13.27 18:55:12.396 INFO  Load project repositories (done) | time=82ms
+#4 13.28 18:55:12.406 INFO  Indexing files...
+#4 13.28 18:55:12.406 INFO  Project configuration:
+#4 13.28 18:55:12.406 INFO    Excluded sources: **/*.java
+#4 13.33 18:55:12.462 INFO  68 files indexed
+#4 13.33 18:55:12.463 INFO  Quality profile for css: Sonar way
+#4 13.33 18:55:12.463 INFO  Quality profile for docker: Sonar way
+#4 13.33 18:55:12.463 INFO  Quality profile for web: Sonar way
+#4 13.33 18:55:12.463 INFO  Quality profile for xml: Sonar way
+#4 13.33 18:55:12.463 INFO  Quality profile for yaml: Sonar way
+#4 13.33 18:55:12.464 INFO  ------------- Run sensors on module My Project
+#4 13.36 18:55:12.491 INFO  Load metrics repository
+#4 13.45 18:55:12.580 INFO  Load metrics repository (done) | time=90ms
+#4 13.74 18:55:12.868 INFO  Sensor HTML [web]
+#4 13.87 18:55:13.004 INFO  Sensor HTML [web] (done) | time=135ms
+#4 13.87 18:55:13.004 INFO  Sensor XML Sensor [xml]
+#4 13.88 18:55:13.007 INFO  3 source files to be analyzed
+#4 14.00 18:55:13.132 INFO  3/3 source files have been analyzed
+#4 14.00 18:55:13.133 INFO  Sensor XML Sensor [xml] (done) | time=129ms
+#4 14.00 18:55:13.133 INFO  Sensor JaCoCo XML Report Importer [jacoco]
+#4 14.00 18:55:13.133 INFO  'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+#4 14.00 18:55:13.134 INFO  No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+#4 14.00 18:55:13.134 INFO  Sensor JaCoCo XML Report Importer [jacoco] (done) | time=2ms
+#4 14.00 18:55:13.134 INFO  Sensor IaC CloudFormation Sensor [iac]
+#4 14.01 18:55:13.137 INFO  0 source files to be analyzed
+#4 14.01 18:55:13.142 INFO  0/0 source files have been analyzed
+#4 14.01 18:55:13.142 INFO  Sensor IaC CloudFormation Sensor [iac] (done) | time=7ms
+#4 14.01 18:55:13.142 INFO  Sensor IaC Kubernetes Sensor [iac]
+#4 14.05 18:55:13.180 INFO  0 source files to be analyzed
+#4 14.05 18:55:13.184 INFO  0/0 source files have been analyzed
+#4 14.05 18:55:13.184 INFO  Sensor IaC Kubernetes Sensor [iac] (done) | time=43ms
+#4 14.05 18:55:13.185 INFO  Sensor Java Config Sensor [iac]
+#4 14.06 18:55:13.189 INFO  3 source files to be analyzed
+#4 14.11 18:55:13.236 INFO  3/3 source files have been analyzed
+#4 14.11 18:55:13.236 INFO  Sensor Java Config Sensor [iac] (done) | time=52ms
+#4 14.11 18:55:13.236 INFO  Sensor JavaScript inside YAML analysis [javascript]
+#4 14.11 18:55:13.239 INFO  No input files found for analysis
+#4 14.11 18:55:13.239 INFO  Hit the cache for 0 out of 0
+#4 14.11 18:55:13.240 INFO  Miss the cache for 0 out of 0
+#4 14.11 18:55:13.240 INFO  Sensor JavaScript inside YAML analysis [javascript] (done) | time=4ms
+#4 14.11 18:55:13.241 INFO  Sensor JavaScript inside HTML analysis [javascript]
+#4 14.98 18:55:14.113 INFO  Detected os: Linux arch: amd64 alpine: false. Platform: LINUX_X64
+#4 17.28 18:55:16.407 INFO  Using embedded Node.js runtime
+#4 17.28 18:55:16.408 INFO  Using Node.js executable: '/opt/sonar-scanner/.sonar/js/node-runtime/node'.
+#4 20.79 18:55:19.924 INFO  Memory configuration: OS (15563 MB), Node.js (2096 MB).
+#4 20.87 18:55:20.004 INFO  12 source files to be analyzed
+#4 22.24 18:55:21.374 INFO  12/12 source files have been analyzed
+#4 22.24 18:55:21.375 INFO  Hit the cache for 0 out of 12
+#4 22.24 18:55:21.375 INFO  Miss the cache for 12 out of 12: ANALYSIS_MODE_INELIGIBLE [12/12]
+#4 22.24 18:55:21.375 INFO  Sensor JavaScript inside HTML analysis [javascript] (done) | time=8135ms
+#4 22.24 18:55:21.375 INFO  Sensor CSS Rules [javascript]
+#4 22.25 18:55:21.379 INFO  17 source files to be analyzed
+#4 22.63 18:55:21.762 INFO  17/17 source files have been analyzed
+#4 22.63 18:55:21.763 INFO  Hit the cache for 0 out of 0
+#4 22.63 18:55:21.763 INFO  Miss the cache for 0 out of 0
+#4 22.63 18:55:21.763 INFO  Sensor CSS Rules [javascript] (done) | time=387ms
+#4 22.63 18:55:21.763 INFO  Sensor CSS Metrics [javascript]
+#4 22.79 18:55:21.925 INFO  Sensor CSS Metrics [javascript] (done) | time=162ms
+#4 22.79 18:55:21.925 INFO  Sensor IaC Docker Sensor [iac]
+#4 22.80 18:55:21.926 INFO  1 source file to be analyzed
+#4 22.85 18:55:21.980 INFO  1/1 source file has been analyzed
+#4 22.85 18:55:21.981 INFO  Sensor IaC Docker Sensor [iac] (done) | time=56ms
+#4 22.85 18:55:21.981 INFO  Sensor TextAndSecretsSensor [text]
+#4 22.85 18:55:21.981 INFO  Available processors: 12
+#4 22.85 18:55:21.981 INFO  Using 12 threads for analysis.
+#4 23.06 18:55:22.187 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+#4 23.06   * The filename starts with "test"
+#4 23.06   * The filename contains "test." or "tests."
+#4 23.06   * Any directory in the file path is named: "doc", "docs", "test" or "tests"
+#4 23.06   * Any directory in the file path has a name ending in "test" or "tests"
+#4 23.06 
+#4 23.07 18:55:22.199 INFO  Using git CLI to retrieve untracked files
+#4 23.07 18:55:22.201 WARN  Analyzing only language associated files, make sure to run the analysis inside a git repository to make use of inclusions specified via "sonar.text.inclusions"
+#4 23.08 18:55:22.212 INFO  22 source files to be analyzed
+#4 23.24 18:55:22.372 INFO  22/22 source files have been analyzed
+#4 23.24 18:55:22.373 INFO  Sensor TextAndSecretsSensor [text] (done) | time=392ms
+#4 23.24 18:55:22.375 INFO  ------------- Run sensors on project
+#4 23.26 18:55:22.387 INFO  Sensor Zero Coverage Sensor
+#4 23.26 18:55:22.388 INFO  Sensor Zero Coverage Sensor (done) | time=1ms
+#4 23.26 18:55:22.388 INFO  SCM Publisher No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+#4 23.26 18:55:22.391 INFO  CPD Executor 1 file had no CPD blocks
+#4 23.26 18:55:22.391 INFO  CPD Executor Calculating CPD for 11 files
+#4 23.27 18:55:22.401 INFO  CPD Executor CPD calculation finished (done) | time=9ms
+#4 23.34 18:55:22.468 INFO  Analysis report generated in 64ms, dir size=784.9 kB
+#4 23.38 18:55:22.511 INFO  Analysis report compressed in 42ms, zip size=175.8 kB
+#4 23.47 18:55:22.605 INFO  Analysis report uploaded in 94ms
+#4 23.48 18:55:22.605 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://host.docker.internal:9000/dashboard?id=my_project_key
+#4 23.48 18:55:22.606 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+#4 23.48 18:55:22.606 INFO  More about the report processing at http://host.docker.internal:9000/api/ce/task?id=e7227184-92a0-423e-8e31-513187176458
+#4 23.89 18:55:23.016 INFO  Analysis total time: 18.889 s
+#4 23.89 18:55:23.016 INFO  SonarScanner Engine completed successfully
+#4 24.21 18:55:23.340 INFO  EXECUTION SUCCESS
+#4 24.21 18:55:23.342 INFO  Total time: 23.719s
+#4 DONE 24.3s
+
+#10 exporting to image
+#10 sha256:b9f6625eb6eeb7550324b66e32dcbbe55cc889f019664c597b576c07f411344d
+#10 exporting layers
+#10 exporting layers 0.7s done
+#10 writing image sha256:d4032be11bc4c8d0bd2743d887ee913c485ec0ea9ea8944146b36bc3a403a37d done
+#10 naming to docker.io/nirrea839/spring-petclinic:latest done
+#10 DONE 0.7s
+[8mha:////4Bkiy1p2uPm/i0OqXnUXpz1Wd6fiHBRFCWHKZwZUxMJhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4PEJZJ4yIwsxvG9zCMiXThCtB3aZXCJi0Wh3kgKGz68KAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // script
+[8mha:////4ONoSFtn9DomR/0Q0URLCAIEBGGA1Y9nCJ1Qgu4h+XawAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
+[8mha:////4If6MgQS2PUuRaypvmLDNbT/QTxcBhWHvenfxNV93GhOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // stage
+[8mha:////4BC8Z83IhEZBIOqYywNymkuvjz0RKh04rdthYm02zbVUAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYUVMrFEWThCSENJG/5ckpZ04EVfjDgQqMeHBsi1Z7/mCJkU4UHSss9h7TNqzIYyuJDZR7C+BJtbRmWnCRMEyaSdJxh6XKilbWFTVsBKwtqgDJY8uw0Z06q7aoNC1pxzLthdQe3ODB1SikLOK+VvmCNvraBLhj/MXAPOQoea82I5/ns0bXGTWLMIAAAA=[0m[Pipeline] stage
+[8mha:////4Ao7X43pnxtM5fTHpTLQDL0B79xLi3G4tUMY0YapTtcTAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (docker login before pushing image to dockerhub)
+[8mha:////4MJQ1cyX9HVyM5m7hzbBEe0TCKfQnS1a4HDvxuZBb3y8AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] script
+[8mha:////4BMj4hVRBGxAoBI7A6zG835v6CCM5ZudcYQVTnPRpmklAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] {
+[8mha:////4KVJlLcTMbXm90tiyHAA4MkzSeX7k8yTcFdCzzHKAihbAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] withEnv
+[8mha:////4AzIXsVJdsVQGxR8UiNUZLEiRgk7ikSyYpYUfG27skrVAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4M/jVbqyEro7SvPby7au+f9NMv7K+6sl0VlzOC28RuEqAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] withDockerRegistry
+$ docker login -u nirrea839 -p ******** https://index.docker.io/v1/
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /home/jenkins/workspace/build-run-and-upload-to-dockerhub@tmp/d3eee5ca-c304-4309-8d60-b75c20edf458/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4EuoMkQRUdXNXHB6cOjDZJyPR904wHIUfd+S0UMNlbLFAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] {
+[8mha:////4LZOG1AtyAYsF7Ngfb/l225AEcjRs+R2DXC///HaHzDwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
++ docker tag spring-petclinic:latest nirrea839/spring-petclinic:latest
+Error response from daemon: No such image: spring-petclinic:latest
+[8mha:////4NThalk4/qkSAqbGIeQO6MBdo2RQexdQnXAZ/M8O5QuPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9hbYOkvgAAAA==[0m[Pipeline] }
+[8mha:////4HVXXVQTduPMkFOC5rXmgTyARbWzut9osKVIutsWyBAVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] // withDockerRegistry
+[8mha:////4GLmQ1tPsFCLmVzhoG4fLZwzPpl16csiBM5XRPjjmGqtAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBYkGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9t4fMOvgAAAA==[0m[Pipeline] }
+[8mha:////4PcGEL+S10hYZ21XMTbzn8r2+MCm/WKwp7eJk+SwNVMEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFyY6ZcvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JaE/EWCPpi6J3jg0261DVS3OrWy9dUSIBLmOj6+pJYRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP1xjpDa+AAAA[0m[Pipeline] }
+[8mha:////4EML80IrpYOzLpCX0WmoksdQu1vW7SA+Zix6y8xU6dqqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrQ659/QFaJZxjvgAAAA==[0m[Pipeline] // script
+[8mha:////4FGiYWMySloFJj42IyIgPDXezJf8IvZdNCDV9dWiC0VLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBYkGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w9iZw+SvgAAAA==[0m[Pipeline] }
+[8mha:////4JrHay2+c7dN+3cpqgzqijENwtrXfRwTv/Jswpf5dfHPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w995VrAvgAAAA==[0m[Pipeline] // stage
+[8mha:////4PwBwZvivnX0oxaOTgvmKcN7kXkUEAEJsTAnunaJMP3mAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiAYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w9rBCEavgAAAA==[0m[Pipeline] }
+[8mha:////4GecOywx+yEQCOQ1dF8lu0wa9usq7HePJE89TifYwdHpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wFY53qmvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4J7xIH86DPWKMIf6ki9PJv8Vw3uevXXCFDO6QISq2TaSAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJY0DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg82uoiCvQAAAA==[0m[Pipeline] }
+[8mha:////4BmPnwfEemIrPJiOY9kaMO9sFrUFBsGc1KvMWENXbgSsAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBJQaMIb0AAAA=[0m[Pipeline] // node
+[8mha:////4E1o1NEJEyO2uzzgG7TY1mPFjHmvBjEkexg0k/eaRSSTAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY0wrEb0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
