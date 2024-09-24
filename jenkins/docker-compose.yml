@@ -7,7 +7,7 @@ services:
             - '8081:8080'
             - '50000:50000'
         volumes:
-            - /home/rea/devops-final-project/spring-petclinic/jenkins/jenkins/jenkins_jobs:/var/jenkins_home/jobs
+            - /Users/reanir/repo/devops-final-project/spring-petclinic/jenkins/jenkins/jenkins_jobs:/var/jenkins_home/jobs
         networks: 
             - jb
     jenkins-slave:
