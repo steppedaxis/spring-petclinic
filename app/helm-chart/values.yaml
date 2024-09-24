@@ -3,6 +3,12 @@ image: "nirrea839/spring-petclinic:latest"
 label: "spring-petclinic"
 labelSelector: "spring-petclinic"
 replicas: 2
+serviceType: "ClusterIP"
+port: 80
+targetPort: 8080
+mysqlImage: "mysql:5.7"
+
+
 
 
 
