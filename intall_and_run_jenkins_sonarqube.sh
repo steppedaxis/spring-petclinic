@@ -1,6 +1,6 @@
 cd jenkins
-docker compose up -d
+sudo docker compose up -d
 cd ../sonarqube
-docker compose up -d
+sudo docker compose up -d
 
 

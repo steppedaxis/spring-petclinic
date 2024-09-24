@@ -7,8 +7,7 @@ services:
             - '8081:8080'
             - '50000:50000'
         volumes:
-            - /jenkins/jenkins/jenkins_jobs:/var/jenkins_home/jobs
-            - /jenkins/jenkins/jenkins_secrets:/var/jenkins_home/secrets
+            - ./jenkins/jenkins_backup:/var/jenkins_home       
         networks: 
             - jb
     jenkins-slave:

@@ -1,323 +1,0 @@
-Started by user [8mha:////4KYnOis15tVdE2HWKk/7cuzIyZWlpb4Z4c7l7xPWGyluAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-Obtained app/jenkinsfile from git https://github.com/steppedaxis/spring-petclinic.git
-[8mha:////4Ikcoz66Z7W+a6cpa6SCrtbmEG9oUTz7Ntkuj6HHLAMnAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
-[8mha:////4BZuQovrOr2L/Qwmn9UVLErZhqeclas7cw6/SBYRaTIaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
-Running on [8mha:////4N085ZhhIn5O06It9QIRQV17ihoGqVRJki2GaI+SR71VAAAAsx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzJEgYN/eT83ILSktQi/ZT85OzUIlUjl+KcxLJUIJ2YZpBolJxiZG6akqIPAGGOgrTdAAAA[0mdocker-slave-af0a2cd275dd in /home/jenkins/workspace/build-run-and-upload-to-dockerhub
-[8mha:////4BaxSmeteN1WyyZOeBAazxd/ha+WQrd2D6hDRIkkdpWyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
-[8mha:////4MeS4XBcHo4VQVNWC07UQleOGhvvlMJBPOSh1phuc6I6AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
-[8mha:////4BMvn8wMAPdFeKdY2ioQ28HzkS9MAxs5lBMT1rPewzJUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
-[8mha:////4PIsIkyqkEeu6HLnLiHkNq5/V9h1KusushqIYIFKFQ9pAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
-The recommended git tool is: git
-using credential steppedaxis
-Fetching changes from the remote Git repository
-Checking out Revision 082028949fef120e2ccfc675a40d2b8692d6b41c (origin/main)
-Commit message: "qdwq"
- > git rev-parse --resolve-git-dir /home/jenkins/workspace/build-run-and-upload-to-dockerhub/.git # timeout=10
- > git config remote.origin.url https://github.com/steppedaxis/spring-petclinic.git # timeout=10
-Fetching upstream changes from https://github.com/steppedaxis/spring-petclinic.git
- > git --version # timeout=10
- > git --version # 'git version 2.34.1'
-using GIT_ASKPASS to set credentials 
- > git fetch --tags --force --progress -- https://github.com/steppedaxis/spring-petclinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
- > git rev-parse origin/main^{commit} # timeout=10
- > git config core.sparsecheckout # timeout=10
- > git checkout -f 082028949fef120e2ccfc675a40d2b8692d6b41c # timeout=10
- > git rev-list --no-walk e65c30bd9b61423ad96d692635b35884bfb2b9ce # timeout=10
-[8mha:////4IK+cBQI+Jw38Wp/qvU4ZirvY68P2e3MPH0yuIcYRH78AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
-[8mha:////4CAfDKHVgPZvysVMFZi8wH7/3vLjpGIWtgZyEfPPzFBQAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
-[8mha:////4OxflRXI8ywlifiykTT7ZZL+3+Ud9kRbwM7HN3XX0cMQAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
-[8mha:////4Dd0hlP5xdDw5rtSW8M3DzezHyVBLPRKGN/Tkg6mCwXKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
-[8mha:////4EiZLR0ZFgG8Vn4m4vMjfEgZQJf/TUY3M5Jdi+dmkrusAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
-[8mha:////4G8qPJyp7hji+0rRocyUoNdelaEZAYRfAQarNih+jG/9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (build stage, including sonarqube scanner analysis)
-[8mha:////4JGFKTVP6kVHHUJaUmuTAhScjuY79mKwiIjlNE3h0tJWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
-[8mha:////4GOKOHSq4pvV6OXpbmKLYX4pqEc6yzIk7id3BO3UrRocAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
-[8mha:////4JzsS7dhdxQBePaNb8+J0sbhcbx8ktsR1ETGUsJukfmIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
-+ docker build -t nirrea839/spring-petclinic:latest -f app/Dockerfile .
-#1 [internal] load build definition from Dockerfile
-#1 sha256:cd751601910b631038b352d7a7c27ca107b93da65351bba54a716d928ef7eeb1
-#1 transferring dockerfile: 611B done
-#1 DONE 0.0s
-
-#2 [internal] load metadata for docker.io/library/openjdk:17-jdk
-#2 sha256:033a3c32702ded5c4f188f3ba5569acd418281aa6ac9ba5b30d8697d17d5de51
-#2 DONE 1.0s
-
-#3 [internal] load metadata for docker.io/sonarsource/sonar-scanner-cli:latest
-#3 sha256:6659297a2df4e0bc9882d9a9c2bf2baf2de20a680265e0b717e6dfc40ae896ed
-#3 DONE 1.0s
-
-#4 [internal] load .dockerignore
-#4 sha256:6627caaa7218a3fc8da87d91913c88c0293b0b892ee10007577623ec3a28d9ec
-#4 transferring context: 2B done
-#4 DONE 0.0s
-
-#16 [sonarqube 1/5] FROM docker.io/sonarsource/sonar-scanner-cli:latest@sha256:0bc49076468d2955948867620b2d98d67f0d59c0fd4a5ef1f0afc55cf86f2079
-#16 sha256:22dc9b1b6cf1ca69986c429dffb137ab4f4211efd69b07f7a094ed9ffc35ef3e
-#16 DONE 0.0s
-
-#7 [build-artifact 1/4] FROM docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8
-#7 sha256:a745a85c24a9ac654f5d5af419ee62cdd8c0c7b038380bbb5eb51be22ddb7a0f
-#7 DONE 0.0s
-
-#14 [internal] load build context
-#14 sha256:e10ff5aa2634d0082577037f5d6afddfe624a4c99feae8b52a3a9a376612d853
-#14 transferring context: 12.22kB done
-#14 DONE 0.0s
-
-#15 [sonarqube 2/5] WORKDIR /app
-#15 sha256:1b0636b693dee629c710e5f35d4316f2b305980a3d8c234d6ed05cc64f0e71d1
-#15 CACHED
-
-#13 [sonarqube 3/5] COPY app/sonar-project.properties ./sonar-project.properties
-#13 sha256:bbfe47946e4d43c2d76a9345b7c1e0db0bef8b5b8984ac7834a4da9cdc764a5b
-#13 CACHED
-
-#12 [sonarqube 4/5] COPY /app /app
-#12 sha256:9c0dcf5daed225c9dceb72d7298e3491e6356c823e54dab2ea72e5b4b14d6ffe
-#12 DONE 0.1s
-
-#11 [sonarqube 5/5] RUN sonar-scanner -Dsonar.projectBaseDir=/app
-#11 sha256:230d4df8ee9c8b6f5294776c9d3649bb95e1a8028762ceb97bf592af1b9ffa17
-#11 0.331 INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
-#11 0.331 INFO: Project root configuration file: /app/sonar-project.properties
-#11 0.350 INFO: SonarScanner 5.0.1.3006
-#11 0.350 INFO: Java 17.0.11 Alpine (64-bit)
-#11 0.350 INFO: Linux 5.15.146.1-microsoft-standard-WSL2 amd64
-#11 0.498 INFO: User cache: /opt/sonar-scanner/.sonar/cache
-#11 1.173 INFO: Analyzing on SonarQube server 10.6.0.92116
-#11 1.173 INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
-#11 1.649 INFO: Load global settings
-#11 1.760 INFO: Load global settings (done) | time=111ms
-#11 1.771 INFO: Server id: 147B411E-AZIalCKUh6IzC2T6weFs
-#11 1.777 INFO: Loading required plugins
-#11 1.777 INFO: Load plugins index
-#11 1.872 INFO: Load plugins index (done) | time=95ms
-#11 1.872 INFO: Load/download plugins
-#11 2.930 INFO: Load/download plugins (done) | time=1057ms
-#11 3.109 INFO: Process project properties
-#11 3.114 INFO: Process project properties (done) | time=6ms
-#11 3.124 INFO: Project key: my_project_key
-#11 3.124 INFO: Base dir: /app
-#11 3.124 INFO: Working dir: /app/.scannerwork
-#11 3.129 INFO: Load project settings for component key: 'my_project_key'
-#11 3.210 INFO: Load project settings for component key: 'my_project_key' (done) | time=81ms
-#11 3.226 INFO: Load quality profiles
-#11 3.342 INFO: Load quality profiles (done) | time=116ms
-#11 3.362 WARN: SCM provider autodetection failed. Please use "sonar.scm.provider" to define SCM of your project, or disable the SCM Sensor in the project settings.
-#11 3.365 INFO: Load active rules
-#11 9.236 INFO: Load active rules (done) | time=5872ms
-#11 9.240 INFO: Load analysis cache
-#11 9.316 INFO: Load analysis cache (1.6 kB) | time=77ms
-#11 9.405 WARN: The properties 'sonar.login' and 'sonar.password' are deprecated and will be removed in the future. Please pass a token with the 'sonar.token' property instead.
-#11 9.415 INFO: Preprocessing files...
-#11 9.455 INFO: 5 languages detected in 68 preprocessed files
-#11 9.455 INFO: 39 files ignored because of inclusion/exclusion patterns
-#11 9.457 INFO: Loading plugins for detected languages
-#11 9.457 INFO: Load/download plugins
-#11 10.72 INFO: Load/download plugins (done) | time=1262ms
-#11 10.80 INFO: Load project repositories
-#11 10.88 INFO: Load project repositories (done) | time=76ms
-#11 10.89 INFO: Indexing files...
-#11 10.89 INFO: Project configuration:
-#11 10.89 INFO:   Excluded sources: **/*.java
-#11 10.95 INFO: 68 files indexed
-#11 10.95 INFO: Quality profile for css: Sonar way
-#11 10.96 INFO: Quality profile for docker: Sonar way
-#11 10.96 INFO: Quality profile for web: Sonar way
-#11 10.96 INFO: Quality profile for xml: Sonar way
-#11 10.96 INFO: Quality profile for yaml: Sonar way
-#11 10.96 INFO: ------------- Run sensors on module My Project
-#11 10.98 INFO: Load metrics repository
-#11 11.07 INFO: Load metrics repository (done) | time=83ms
-#11 11.40 INFO: Sensor HTML [web]
-#11 11.55 INFO: Sensor HTML [web] (done) | time=141ms
-#11 11.55 INFO: Sensor XML Sensor [xml]
-#11 11.55 INFO: 3 source files to be analyzed
-#11 11.68 INFO: 3/3 source files have been analyzed
-#11 11.68 INFO: Sensor XML Sensor [xml] (done) | time=130ms
-#11 11.68 INFO: Sensor JaCoCo XML Report Importer [jacoco]
-#11 11.68 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
-#11 11.68 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
-#11 11.68 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=1ms
-#11 11.68 INFO: Sensor IaC CloudFormation Sensor [iac]
-#11 11.68 INFO: 0 source files to be analyzed
-#11 11.69 INFO: 0/0 source files have been analyzed
-#11 11.69 INFO: Sensor IaC CloudFormation Sensor [iac] (done) | time=11ms
-#11 11.69 INFO: Sensor IaC Kubernetes Sensor [iac]
-#11 11.73 INFO: 0 source files to be analyzed
-#11 11.73 INFO: 0/0 source files have been analyzed
-#11 11.73 INFO: Sensor IaC Kubernetes Sensor [iac] (done) | time=45ms
-#11 11.73 INFO: Sensor Java Config Sensor [iac]
-#11 11.74 INFO: 3 source files to be analyzed
-#11 11.79 INFO: 3/3 source files have been analyzed
-#11 11.79 INFO: Sensor Java Config Sensor [iac] (done) | time=54ms
-#11 11.79 INFO: Sensor JavaScript inside YAML analysis [javascript]
-#11 11.79 INFO: No input files found for analysis
-#11 11.79 INFO: Hit the cache for 0 out of 0
-#11 11.79 INFO: Miss the cache for 0 out of 0
-#11 11.79 INFO: Sensor JavaScript inside YAML analysis [javascript] (done) | time=4ms
-#11 11.79 INFO: Sensor JavaScript inside HTML analysis [javascript]
-#11 12.80 INFO: Detected os: Linux arch: amd64 alpine: true. Platform: UNSUPPORTED
-#11 12.80 INFO: Using Node.js executable: 'node'.
-#11 14.29 INFO: Memory configuration: OS (15563 MB), Node.js (2096 MB).
-#11 16.85 INFO: 12 source files to be analyzed
-#11 17.06 INFO: 12/12 source files have been analyzed
-#11 17.06 INFO: Hit the cache for 0 out of 12
-#11 17.06 INFO: Miss the cache for 12 out of 12: ANALYSIS_MODE_INELIGIBLE [12/12]
-#11 17.06 INFO: Sensor JavaScript inside HTML analysis [javascript] (done) | time=5272ms
-#11 17.06 INFO: Sensor CSS Rules [javascript]
-#11 17.07 INFO: 17 source files to be analyzed
-#11 17.73 INFO: 17/17 source files have been analyzed
-#11 17.73 INFO: Hit the cache for 0 out of 0
-#11 17.73 INFO: Miss the cache for 0 out of 0
-#11 17.73 INFO: Sensor CSS Rules [javascript] (done) | time=664ms
-#11 17.73 INFO: Sensor CSS Metrics [javascript]
-#11 17.97 INFO: Sensor CSS Metrics [javascript] (done) | time=238ms
-#11 17.97 INFO: Sensor IaC Docker Sensor [iac]
-#11 17.97 INFO: 1 source file to be analyzed
-#11 18.03 INFO: 1/1 source file has been analyzed
-#11 18.03 INFO: Sensor IaC Docker Sensor [iac] (done) | time=66ms
-#11 18.03 INFO: Sensor TextAndSecretsSensor [text]
-#11 18.03 INFO: Available processors: 12
-#11 18.03 INFO: Using 12 threads for analysis.
-#11 20.06 INFO: The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
-#11 20.06   * The filename starts with "test"
-#11 20.06   * The filename contains "test." or "tests."
-#11 20.06   * Any directory in the file path is named: "doc", "docs", "test" or "tests"
-#11 20.06   * Any directory in the file path has a name ending in "test" or "tests"
-#11 20.06 
-#11 20.07 INFO: Using git CLI to retrieve untracked files
-#11 20.07 WARN: Analyzing only language associated files, make sure to run the analysis inside a git repository to make use of inclusions specified via "sonar.text.inclusions"
-#11 20.09 INFO: 22 source files to be analyzed
-#11 20.21 INFO: 22/22 source files have been analyzed
-#11 20.21 INFO: Sensor TextAndSecretsSensor [text] (done) | time=2177ms
-#11 20.21 INFO: ------------- Run sensors on project
-#11 20.23 INFO: Sensor Zero Coverage Sensor
-#11 20.23 INFO: Sensor Zero Coverage Sensor (done) | time=1ms
-#11 20.23 INFO: SCM Publisher No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
-#11 20.23 INFO: CPD Executor 1 file had no CPD blocks
-#11 20.23 INFO: CPD Executor Calculating CPD for 11 files
-#11 22.31 INFO: CPD Executor CPD calculation finished (done) | time=2080ms
-#11 24.49 INFO: Analysis report generated in 2175ms, dir size=784.8 kB
-#11 24.54 INFO: Analysis report compressed in 44ms, zip size=175.7 kB
-#11 24.63 INFO: Analysis report uploaded in 92ms
-#11 24.63 INFO: ANALYSIS SUCCESSFUL, you can find the results at: http://host.docker.internal:9000/dashboard?id=my_project_key
-#11 24.63 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
-#11 24.63 INFO: More about the report processing at http://host.docker.internal:9000/api/ce/task?id=adea61bf-c6f1-441f-b08b-92e04e2038a0
-#11 25.32 INFO: Analysis total time: 22.349 s
-#11 25.32 INFO: ------------------------------------------------------------------------
-#11 25.32 INFO: EXECUTION SUCCESS
-#11 25.32 INFO: ------------------------------------------------------------------------
-#11 25.32 INFO: Total time: 24.990s
-#11 25.34 INFO: Final Memory: 16M/74M
-#11 25.34 INFO: ------------------------------------------------------------------------
-#11 DONE 25.7s
-
-#5 [build-artifact 2/4] WORKDIR /app
-#5 sha256:76a679b3809a8527cb8283fd5324714a9d6253716d7f297188e92dce43890a78
-#5 CACHED
-
-#10 [build-artifact 3/4] COPY --from=sonarqube /app /app
-#10 sha256:54b1d2d258ada4816a7c8e48e82279b94ae9f2708d35d2af1188f48b317c200b
-#10 DONE 2.5s
-
-#9 [build-artifact 4/4] RUN ./mvnw package
-#9 sha256:1300921e303fbf1f8c3bedfe87fbf4fe92721a208ba72f5201a64ae4c8fda122
-#9 2.585 [INFO] Scanning for projects...
-#9 2.757 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/3.3.3/spring-boot-starter-parent-3.3.3.pom
-#9 4.167 Downloading from spring-milestones: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-parent/3.3.3/spring-boot-starter-parent-3.3.3.pom
-#9 4.323 Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/3.3.3/spring-boot-starter-parent-3.3.3.pom
-#9 4.551 Progress (1): 1.4/13 kBProgress (1): 2.8/13 kBProgress (1): 4.1/13 kBProgress (1): 5.5/13 kBProgress (1): 6.9/13 kBProgress (1): 8.3/13 kBProgress (1): 9.7/13 kBProgress (1): 11/13 kB Progress (1): 12/13 kBProgress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/3.3.3/spring-boot-starter-parent-3.3.3.pom (13 kB at 56 kB/s)
-#9 4.567 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/3.3.3/spring-boot-dependencies-3.3.3.pom
-#9 4.722 Downloading from spring-milestones: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-dependencies/3.3.3/spring-boot-dependencies-3.3.3.pom
-#9 4.879 Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/3.3.3/spring-boot-dependencies-3.3.3.pom
-#9 4.936 Progress (1): 1.4/100 kBProgress (1): 2.8/100 kBProgress (1): 4.1/100 kBProgress (1): 5.5/100 kBProgress (1): 6.9/100 kBProgress (1): 8.3/100 kBProgress (1): 9.7/100 kBProgress (1): 11/100 kB Progress (1): 12/100 kBProgress (1): 14/100 kBProgress (1): 15/100 kBProgress (1): 16/100 kBProgress (1): 32/100 kBProgress (1): 49/100 kBProgress (1): 65/100 kBProgress (1): 81/100 kBProgress (1): 98/100 kBProgress (1): 100 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/3.3.3/spring-boot-dependencies-3.3.3.pom (100 kB at 766 kB/s)
-#9 5.034 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/graalvm/buildtools/native-maven-plugin/0.10.2/native-maven-plugin-0.10.2.pom
-#9 5.190 Downloading from spring-milestones: https://repo.spring.io/milestone/org/graalvm/buildtools/native-maven-plugin/0.10.2/native-maven-plugin-0.10.2.pom
-#9 5.347 Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/native-maven-plugin/0.10.2/native-maven-plugin-0.10.2.pom
-#9 5.410 Progress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/native-maven-plugin/0.10.2/native-maven-plugin-0.10.2.pom (2.8 kB at 43 kB/s)
-#9 5.419 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/graalvm/buildtools/utils/0.10.2/utils-0.10.2.pom
-#9 5.577 Downloading from spring-milestones: https://repo.spring.io/milestone/org/graalvm/buildtools/utils/0.10.2/utils-0.10.2.pom
-#9 5.736 Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/utils/0.10.2/utils-0.10.2.pom
-#9 5.789 Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/utils/0.10.2/utils-0.10.2.pom (1.9 kB at 36 kB/s)
-#9 5.795 Downloading from spring-snapshots: https://repo.spring.io/snapshot/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.pom
-#9 5.949 Downloading from spring-milestones: https://repo.spring.io/milestone/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.pom
-#9 6.109 Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.pom
-#9 6.164 Progress (1): 16/18 kBProgress (1): 18 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.pom (18 kB at 327 kB/s)
-#9 6.169 Downloading from spring-snapshots: https://repo.spring.io/snapshot/com/fasterxml/jackson/jackson-base/2.13.5/jackson-base-2.13.5.pom
-#9 6.324 Downloading from spring-milestones: https://repo.spring.io/milestone/com/fasterxml/jackson/jackson-base/2.13.5/jackson-base-2.13.5.pom
-#9 6.478 Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.13.5/jackson-base-2.13.5.pom
-#9 6.531 Progress (1): 10 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.13.5/jackson-base-2.13.5.pom (10 kB at 187 kB/s)
-#9 6.535 Downloading from spring-snapshots: https://repo.spring.io/snapshot/com/fasterxml/jackson/jackson-bom/2.13.5/jackson-bom-2.13.5.pom
-#9 6.689 Downloading from spring-milestones: https://repo.spring.io/milestone/com/fasterxml/jackson/jackson-bom/2.13.5/jackson-bom-2.13.5.pom
-#9 6.846 Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.5/jackson-bom-2.13.5.pom
-#9 6.899 Progress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.5/jackson-bom-2.13.5.pom (17 kB at 316 kB/s)
-#9 6.904 Downloading from spring-snapshots: https://repo.spring.io/snapshot/com/fasterxml/jackson/jackson-parent/2.13/jackson-parent-2.13.pom
-#9 7.058 Downloading from spring-milestones: https://repo.spring.io/milestone/com/fasterxml/jackson/jackson-parent/2.13/jackson-parent-2.13.pom
-#9 7.213 Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.13/jackson-parent-2.13.pom
-#9 7.322 Progress (1): 7.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.13/jackson-parent-2.13.pom (7.4 kB at 67 kB/s)
-#9 7.325 Downloading from spring-snapshots: https://repo.spring.io/snapshot/com/fasterxml/oss-parent/43/oss-parent-43.pom
-#9 7.483 Downloading from spring-milestones: https://repo.spring.io/milestone/com/fasterxml/oss-parent/43/oss-parent-43.pom
-#9 7.639 Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/43/oss-parent-43.pom
-#9 7.697 Progress (1): 16/24 kBProgress (1): 24 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/43/oss-parent-43.pom (24 kB at 375 kB/s)
-#9 7.708 Downloading from spring-snapshots: https://repo.spring.io/snapshot/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.pom
-#9 7.865 Downloading from spring-milestones: https://repo.spring.io/milestone/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.pom
-#9 8.024 Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.pom
-#9 8.080 Progress (1): 6.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.pom (6.1 kB at 107 kB/s)
-#9 8.086 Downloading from spring-snapshots: https://repo.spring.io/snapshot/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.pom
-#9 8.245 Downloading from spring-milestones: https://repo.spring.io/milestone/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.pom
-#9 8.405 Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.pom
-#9 8.461 Progress (1): 6.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.pom (6.5 kB at 116 kB/s)
-#9 8.467 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/graalvm/buildtools/graalvm-reachability-metadata/0.10.2/graalvm-reachability-metadata-0.10.2.pom
-#9 8.626 Downloading from spring-milestones: https://repo.spring.io/milestone/org/graalvm/buildtools/graalvm-reachability-metadata/0.10.2/graalvm-reachability-metadata-0.10.2.pom
-#9 8.783 Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/graalvm-reachability-metadata/0.10.2/graalvm-reachability-metadata-0.10.2.pom
-#9 8.839 Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/graalvm-reachability-metadata/0.10.2/graalvm-reachability-metadata-0.10.2.pom (2.0 kB at 34 kB/s)
-#9 8.843 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom
-#9 8.998 Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom
-#9 9.154 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom
-#9 9.209 Progress (1): 8.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom (8.7 kB at 155 kB/s)
-#9 9.212 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/plexus/plexus/13/plexus-13.pom
-#9 9.366 Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/plexus/plexus/13/plexus-13.pom
-#9 9.522 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom
-#9 9.576 Progress (1): 7.6/27 kBProgress (1): 24/27 kB Progress (1): 27 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom (27 kB at 442 kB/s)
-#9 9.588 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom
-#9 9.744 Downloading from spring-milestones: https://repo.spring.io/milestone/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom
-#9 9.899 Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom
-#9 9.953 Progress (1): 5.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom (5.6 kB at 102 kB/s)
-#9 9.957 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/plexus/plexus-xml/4.0.2/plexus-xml-4.0.2.pom
-#9 10.11 Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/plexus/plexus-xml/4.0.2/plexus-xml-4.0.2.pom
-#9 10.27 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/4.0.2/plexus-xml-4.0.2.pom
-#9 10.32 Progress (1): 4.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/4.0.2/plexus-xml-4.0.2.pom (4.2 kB at 78 kB/s)
-#9 10.33 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/maven-xml-impl/4.0.0-alpha-7/maven-xml-impl-4.0.0-alpha-7.pom
-#9 10.48 Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/maven-xml-impl/4.0.0-alpha-7/maven-xml-impl-4.0.0-alpha-7.pom
-#9 10.64 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-xml-impl/4.0.0-alpha-7/maven-xml-impl-4.0.0-alpha-7.pom
-#9 10.69 Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-xml-impl/4.0.0-alpha-7/maven-xml-impl-4.0.0-alpha-7.pom (1.9 kB at 33 kB/s)
-#9 10.70 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/maven/4.0.0-alpha-7/maven-4.0.0-alpha-7.pom
-#9 10.85 Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/maven/4.0.0-alpha-7/maven-4.0.0-alpha-7.pom
-#9 11.01 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/4.0.0-alpha-7/maven-4.0.0-alpha-7.pom
-#9 11.07 Progress (1): 16/26 kBProgress (1): 26 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/4.0.0-alpha-7/maven-4.0.0-alpha-7.pom (26 kB at 405 kB/s)
-#9 11.07 Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/maven-parent/40/maven-parent-40.pom
-#9 11.23 Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/maven-parent/40/maven-parent-40.pom
-Aborted by [8mha:////4KYnOis15tVdE2HWKk/7cuzIyZWlpb4Z4c7l7xPWGyluAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-Sending interrupt signal to process
-#9 11.38 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/40/maven-parent-40.pom
-#9 CANCELED
-context canceled
-script returned exit code 1
-[8mha:////4MLCu/oOq9fGwD80Z14zaYYyom3dGrdC3tFC1vBn9P6HAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
-[8mha:////4BKuH+eLt0mvJllvIKFu3GhW1AbJRzGQcbS7QCqUpfkGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // script
-[8mha:////4MQ0VSVzPE3wYrLOY+JrQ9jUoINd/30WnpIMXDn2RLlOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
-[8mha:////4EUYe1wTjiEVOyOZXfKQFCb4tm1Jw8xZpjLHTj/eVGSkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // stage
-[8mha:////4LAJAHYretc+PQRkJVKSACMckOwCnVLJpcMvjctM22ThAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYUVMrFEWThCSENJG/5ckpZ04EVfjDgQqMeHBsi1Z7/mCJkU4UHSss9h7TNqzIYyuJDZR7C+BJtbRmWnCRMEyaSdJxh6XKilbWFTVsBKwtqgDJY8uw0Z06q7aoNC1pxzLthdQe3ODB1SikLOK+VvmCNvraBLhj/MXAPOQoea82I5/ns0bXGTWLMIAAAA=[0m[Pipeline] stage
-[8mha:////4FbdzxJc8g4Fn+YTOd61tdZe0tlp5MjSA4vFg/IWVInwAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (docker login before pushing image to dockerhub)
-Stage "docker login before pushing image to dockerhub" skipped due to earlier failure(s)
-[8mha:////4KZaTvCeLjsfNVMRn9cz/0kEamOTdJeJhfzO4kMY1RcHAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] getContext
-[8mha:////4FbHyG+/xDXuY3bmXWCwzziRzrPKu4fRN0ECRVvHG2vOAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
-[8mha:////4NgHI0IT8IEyqDIn1msfsoLCPbkl0c0dqdc0c3mTd914AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
-[8mha:////4Ff9UUvbRQ7sSdtxgcOAvO1k291/zEC7r6+DsmCoQ47hAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QGvblyGvgAAAA==[0m[Pipeline] }
-[8mha:////4BDQm3v/DTJm9gDCTFhxMDnV50F7bZVEROxTUHQ4JPD0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wGcjQc6vgAAAA==[0m[Pipeline] // withEnv
-[8mha:////4C6FN426DL3BS9w7wcoqWEburYisvVWbuFOpWAbYpCP5AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA+oSoWS9AAAA[0m[Pipeline] }
-[8mha:////4KhhODmhnZHwSVpclVMGyjkbiOIEjYY+SjJiYaONviDCAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+a6lx70AAAA=[0m[Pipeline] // node
-[8mha:////4EeoWNofm5nB5shdXV3PpyBCpazuoDntT8XbNOiZD4M2AAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny/VaQ7T67L+52vQAAAA==[0m[Pipeline] End of Pipeline
-org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 3f32cc21-45a6-488a-b0f6-92de05d59190
-Finished: ABORTED
