@@ -12,7 +12,7 @@ services:
             - jb
     jenkins-slave:
         build: ./jenkins/slave
-        image: mickaelguene/arm64-debian-jenkins-slave:latest
+        image: jenkins-jb/slave:1.0
         platform: linux/amd64
         # Removed container name to support scale out option 
         #container_name: jenkins-slave 
