@@ -15,7 +15,7 @@
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2205.vc9522a_9d5711">
-      <stagesUUID>887e3bb8-ddd0-493a-a3eb-7cb469716765</stagesUUID>
+      <stagesUUID>f3f6f71b-6c52-4055-aeb0-93acf31cbaac</stagesUUID>
       <pipelineDefs>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2205.vc9522a_9d5711">
           <stages>
@@ -35,7 +35,7 @@
                                 <key>scriptBlock</key>
                               </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                               <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
-                                <value class="string">sh &quot;docker build -t spring-petclinic -f app/Dockerfile .&quot;</value>
+                                <value class="string">sh &quot;docker build -t nirrea839/spring-petclinic:latest -f app/Dockerfile .&quot;</value>
                               </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
                             </entry>
                           </arguments>
@@ -61,7 +61,7 @@
                               </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                               <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
                                 <value class="string">docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;nirrea839&apos;){
-                        
+
                     }</value>
                               </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
                             </entry>
@@ -100,7 +100,7 @@
                 </branches>
               </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
             </stages>
-            <uuid>887e3bb8-ddd0-493a-a3eb-7cb469716765</uuid>
+            <uuid>f3f6f71b-6c52-4055-aeb0-93acf31cbaac</uuid>
           </stages>
           <agent>
             <agentType>
@@ -119,7 +119,7 @@
           <string>origin/main</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@5.0.0">
-              <sha1>477fa610633f6b3d67574776699ef6023f717fef</sha1>
+              <sha1>cd4986d208467272f1eafe9af65465a6dc044929</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -128,7 +128,7 @@
               </branches>
             </marked>
             <revision reference="../marked"/>
-            <hudsonBuildNumber>28</hudsonBuildNumber>
+            <hudsonBuildNumber>29</hudsonBuildNumber>
           </hudson.plugins.git.util.Build>
         </entry>
       </buildsByBranchName>
@@ -146,30 +146,26 @@
         </entry>
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
-    <jenkins.model.InterruptedBuildAction>
-      <causes>
-        <jenkins.model.CauseOfInterruption_-UserInterruption>
-          <user>admin</user>
-        </jenkins.model.CauseOfInterruption_-UserInterruption>
-      </causes>
-    </jenkins.model.InterruptedBuildAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3908.vd6b_b_5a_a_54010">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
   </actions>
-  <queueId>55</queueId>
-  <timestamp>1727136401897</timestamp>
-  <startTime>1727136401902</startTime>
-  <result>ABORTED</result>
-  <duration>146978</duration>
+  <queueId>57</queueId>
+  <timestamp>1727136573898</timestamp>
+  <startTime>1727136573903</startTime>
+  <result>FAILURE</result>
+  <duration>388660</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>ABORTED</result>
+    <result>FAILURE</result>
     <script>pipeline {
     agent any
     stages {
         stage(&apos;build stage, including sonarqube scanner analysis&apos;) {
             steps {
                 script {
-                    sh &quot;docker build -t spring-petclinic -f app/Dockerfile .&quot;
+                    sh &quot;docker build -t nirrea839/spring-petclinic:latest -f app/Dockerfile .&quot;
                 }
             }
         }
@@ -177,7 +173,7 @@
             steps {
                 script {
                     docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;nirrea839&apos;){
-                        
+
                     }
                 }
             }
@@ -198,33 +194,30 @@
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>329452274</long>
+        <long>1216690783</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>55272965</long>
+        <long>97882733</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>15584606363</long>
+        <long>21099007171</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>10559095</long>
+        <long>11806232</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>14822210501</long>
+        <long>18502312136</long>
       </entry>
     </timings>
     <internalCalls class="sorted-set">
-      <string>org.jenkinsci.plugins.pipeline.StageStatus.TAG_NAME</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.SyntheticStageNames.checkout</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.createStepsBlock</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.getRestartedStage</string>
-      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.logToTaskListener</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.markStageFailedAndContinued</string>
-      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.markStageWithTag</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateJobProperties</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateRunAndJobActions</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.getScript</string>
@@ -251,9 +244,6 @@
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.stages</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.tools</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.triggers</string>
-      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.SkippedStageReason$Failure.&lt;init&gt;</string>
-      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.SkippedStageReason$Failure.message</string>
-      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.SkippedStageReason$Failure.stageStatus</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.&lt;init&gt;</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.agent</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.environment</string>
@@ -271,13 +261,16 @@
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stages.&lt;init&gt;</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stages.stages</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.StepsBlock.closure</string>
+      <string>org.jenkinsci.plugins.workflow.cps.EnvActionImpl.BUILD_NUMBER</string>
+      <string>org.jenkinsci.plugins.workflow.cps.EnvActionImpl.DOCKER_TOOL_NAME</string>
+      <string>org.jenkinsci.plugins.workflow.cps.EnvActionImpl.NODE_NAME</string>
       <string>org.jenkinsci.plugins.workflow.cps.persistence.IteratorHack$Itr.hasNext</string>
       <string>org.jenkinsci.plugins.workflow.cps.persistence.IteratorHack$Itr.next</string>
       <string>org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper.result</string>
     </internalCalls>
     <sandbox>true</sandbox>
-    <iota>35</iota>
-    <head>1:35</head>
+    <iota>51</iota>
+    <head>1:51</head>
     <done>true</done>
     <resumeBlocked>false</resumeBlocked>
     <storageDir>workflow-completed</storageDir>
@@ -304,7 +297,7 @@
       </scm>
       <node>docker-slave-af0a2cd275dd</node>
       <workspace>/home/jenkins/workspace/build-run-and-upload-to-dockerhub</workspace>
-      <changelogFile>/var/jenkins_home/jobs/build-run-and-upload-to-dockerhub/builds/28/changelog17140192559985587288.xml</changelogFile>
+      <changelogFile>/var/jenkins_home/jobs/build-run-and-upload-to-dockerhub/builds/29/changelog12923800375564858659.xml</changelogFile>
       <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
   </checkouts>
