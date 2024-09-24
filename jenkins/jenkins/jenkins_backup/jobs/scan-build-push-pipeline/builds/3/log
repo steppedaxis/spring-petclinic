@@ -1,0 +1,171 @@
+Started by user [8mha:////4CEZBMUMe2lX4IA57bTtHC6xHJzjq0Wi5ZlBMMUv5eHAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained app/jenkinsfile from git https://github.com/steppedaxis/spring-petclinic.git
+[8mha:////4CeFs2O9RxetqLxWhc33NfX35pNYoJX9V3Yz7VOFcQzXAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4DKEn3JVILHpzsOyI29mEXPYfNGMV03TyTahOMQQqNGHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4GkOHZtkdUIDs9yppW2lQr8Z5RPmfiL6v/V1CjI4RyyUAAAAsx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzJEgYN/eT83ILSktQi/ZT85OzUIlUjl+KcxLJUIG1paWmYaGicaJxsYKkPAG5gTyTdAAAA[0mdocker-slave-9991a13a3c09 in /home/jenkins/workspace/scan-build-push-pipeline
+[8mha:////4Fy3Z/jT6SbrxBVCwMqxOgjV7TOob19Dj8WDSQ1hyZxCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Li6Dy9rZaA7OJ9928GNvKBKHyX9l+EuSdqTVMehF/7hAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4GRf2pRD+pt9PhLjK1bLbvvp8mS+HHhoFJCoeGNNLt4XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4M2E6uy+hHQde36jwR28WsCyd8WucfBwBvjlH86M5vWTAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+using credential github
+Fetching changes from the remote Git repository
+Checking out Revision 2952bebb0c19f339fa1531995f77c2fc72c7ffe0 (origin/main)
+Commit message: "dqdw"
+ > git rev-parse --resolve-git-dir /home/jenkins/workspace/scan-build-push-pipeline/.git # timeout=10
+ > git config remote.origin.url https://github.com/steppedaxis/spring-petclinic.git # timeout=10
+Fetching upstream changes from https://github.com/steppedaxis/spring-petclinic.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/steppedaxis/spring-petclinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2952bebb0c19f339fa1531995f77c2fc72c7ffe0 # timeout=10
+ > git rev-list --no-walk 2952bebb0c19f339fa1531995f77c2fc72c7ffe0 # timeout=10
+[8mha:////4MVIxe1wkcojyGrskzlbHp401UfScWrlqWt2MwZs/KvaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4PKZv/VyeF92x+F4btGPXsa3JaQ9/Sq8CuPmxWsX5Yh9AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4JzNwlEqvw1qpkwPrD9g81xUoAIMxaLLa4lAyaDN7w70AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4CUlr0mXmL6F73+lNqnGKE8lSToi9YTTfaITvRToswOtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4F6HLRo1glXMkWSeYcL5YLV/i9feqLm/WkZk9GWYh+rOAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4G+LEFo5mFnPDOvL1mTqx8wtbl1D3ApvNH5q086pbEVaAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (build stage, including sonarqube scanner analysis)
+[8mha:////4EkfyfaoYlWRTR6uuN8z4xsIXWB6YYm0Vzbvb0drL1qmAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
+[8mha:////4PdsnsI83K8L0HDoWDfTv0l6B/D1hn4sM0z3kBWd4hxVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4NwhEvCRaFQNknLsqSh24MfhYHW8GyHFFS47UC6vWQNgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ docker build -t nirrea839/spring-petclinic:latest -f app/Dockerfile .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:75a0a5c727fe98fc53f5c8abc9fac3e05f6ea80a22f4f2da450f48660905b54d
+#1 transferring dockerfile: 611B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/openjdk:17-jdk
+#2 sha256:033a3c32702ded5c4f188f3ba5569acd418281aa6ac9ba5b30d8697d17d5de51
+#2 DONE 0.5s
+
+#3 [internal] load metadata for docker.io/sonarsource/sonar-scanner-cli:latest
+#3 sha256:6659297a2df4e0bc9882d9a9c2bf2baf2de20a680265e0b717e6dfc40ae896ed
+#3 DONE 0.6s
+
+#4 [internal] load .dockerignore
+#4 sha256:34b1d4f9d518bcb1866db7c8c2ae46baa4fc9b932b8cdc82c6f74bc9112a2424
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#13 [sonarqube 1/5] FROM docker.io/sonarsource/sonar-scanner-cli:latest@sha256:605ea9a44a12ec328ad59a9b98c740cf0672a467b57ba2ae63cb85cc5831287e
+#13 sha256:a25d27ac29c3d9b155d17482e844b047edf231cf2b5af89014814327b58b5801
+#13 DONE 0.0s
+
+#16 [build-artifact 1/4] FROM docker.io/library/openjdk:17-jdk@sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8
+#16 sha256:a745a85c24a9ac654f5d5af419ee62cdd8c0c7b038380bbb5eb51be22ddb7a0f
+#16 DONE 0.0s
+
+#11 [internal] load build context
+#11 sha256:10465261531f5adc5b70d7905ca0fc43ac87c70777d18e5fd691c983b5f461df
+#11 transferring context: 11.66kB done
+#11 DONE 0.0s
+
+#9 [sonarqube 4/5] COPY /app /app
+#9 sha256:54e1f5f1360a244509940d6cce00da2f0c27c031bc393d282d6ffcd5041d495e
+#9 CACHED
+
+#7 [build-artifact 3/4] COPY --from=sonarqube /app /app
+#7 sha256:35633df676cd26ff1ac079aa9b1c32b8c39cf96f45aa63a28f5011d6789ed455
+#7 CACHED
+
+#14 [build-artifact 2/4] WORKDIR /app
+#14 sha256:76a679b3809a8527cb8283fd5324714a9d6253716d7f297188e92dce43890a78
+#14 CACHED
+
+#10 [sonarqube 3/5] COPY app/sonar-project.properties ./sonar-project.properties
+#10 sha256:eb4ebb0eb7378986016f0d52049132f939c2938797fdce77d69d941e001dadb1
+#10 CACHED
+
+#12 [sonarqube 2/5] WORKDIR /app
+#12 sha256:92087953825ad4762340499a4dd75da156efdba1a9433cbc685e46669569be0b
+#12 CACHED
+
+#8 [sonarqube 5/5] RUN sonar-scanner -Dsonar.projectBaseDir=/app
+#8 sha256:737862e814097b99cd1cc2efb4325d407be44d642796cda027bdeafa7bf6e9c9
+#8 CACHED
+
+#6 [build-artifact 4/4] RUN ./mvnw package
+#6 sha256:0dd6a6ac91fa6f7353c7524725db8abc4f71467335433573da780cc680484c98
+#6 CACHED
+
+#15 [run-app 2/3] WORKDIR /code
+#15 sha256:d5872f381f2cb75988959c0542f19bd5723db866a6c402d544a3f5e0c30d2e0f
+#15 CACHED
+
+#5 [run-app 3/3] COPY --from=build-artifact /app/target/*.jar /code/app.jar
+#5 sha256:9445fa81162e5bbea5489109eca1c25f06a165b75c10feaf381ea1f16b3bf7f4
+#5 CACHED
+
+#17 exporting to image
+#17 sha256:b1bb782f871dcae38e182f880f08b3118dcd962a49646d6bcce2c6709e41f4e9
+#17 exporting layers done
+#17 writing image sha256:e124b011b55ddbb3305f45693e3d34427db2eb6d9b65f176d77ea3f2c198ab11 done
+#17 naming to docker.io/nirrea839/spring-petclinic:latest done
+#17 DONE 0.0s
+[8mha:////4Oo4RhjVyX135BWcS3sBapG85ndVoNpYe4qaWK9oWJMZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4FvlB9FtrrOlCc4yOuz3o+G84eFv/RebCuS51S/UPs9gAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // script
+[8mha:////4P67vMJPsqt1oN/lO9G4LW6J4WdFjsS6PTokt4NwDOsYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
+[8mha:////4EVytDuY+ILcMeMcQCFGIhP3nZgq99NM4eUcOy84LVlWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // stage
+[8mha:////4BIhq120ZuqUKGGzcKAAgOi9YhKXDogaSS80yN6+ZQywAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYUVMrFEWThCSENJG/5ckpZ04EVfjDgQqMeHBsi1Z7/mCJkU4UHSss9h7TNqzIYyuJDZR7C+BJtbRmWnCRMEyaSdJxh6XKilbWFTVsBKwtqgDJY8uw0Z06q7aoNC1pxzLthdQe3ODB1SikLOK+VvmCNvraBLhj/MXAPOQoea82I5/ns0bXGTWLMIAAAA=[0m[Pipeline] stage
+[8mha:////4Ghzl2C9c/9Ewj50NfaGL7bAACSRxYSMwsNig6Zsr1VnAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (docker login before pushing image to dockerhub)
+[8mha:////4E7XaizMz97H78q8NA+wgpyM4GeMjLvzIS3tC2ZKBM55AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] script
+[8mha:////4DoNmEM0bai4urBKVtFNy/V2H5irBxY6LzedAkUV746CAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] {
+[8mha:////4PpEB+Jwq9h2EsnFik09ymwUl8ORj/61YkpfS65q5MhYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] withEnv
+[8mha:////4Am0Y59wvr/CjrbFvaZDhFMvSPc5f2iiYGOVZJdJglEhAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4PLfQOQx38wkAdg45tEMy0HBhoQBPIJv7Y69VeaLwZjxAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] withDockerRegistry
+$ docker login -u nirrea839 -p ******** https://index.docker.io/v1/
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /home/jenkins/workspace/scan-build-push-pipeline@tmp/8a90ddf7-48d3-4077-b737-a76e0edd624c/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4GfVmZYeytvBieBYG5JrdSXZtAiMRe/2XNdh5vE0isSQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] {
+[8mha:////4J8u+wz1HQo4oz185WVSkHpzUe6lVSuPC48mW7vIau/aAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
++ docker tag nirrea839/spring-petclinic:latest nirrea839/spring-petclinic:3
+[8mha:////4Lf0kD1V5gIaDe2CFWuNXz9Z4/D6RyEXdmQiiMQG3fraAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw959s4fvgAAAA==[0m[Pipeline] sh
++ docker push nirrea839/spring-petclinic:latest
+The push refers to repository [docker.io/nirrea839/spring-petclinic]
+d5c5b46448b5: Preparing
+c1501d4a3fef: Preparing
+dc9fa3d8b576: Preparing
+27ee19dc88f2: Preparing
+c8dd97366670: Preparing
+c1501d4a3fef: Layer already exists
+dc9fa3d8b576: Layer already exists
+c8dd97366670: Layer already exists
+27ee19dc88f2: Layer already exists
+d5c5b46448b5: Layer already exists
+latest: digest: sha256:6181a8976115d4e8afcdb221ba85a132a0222c245247b5213fcccaed58787af6 size: 1372
+[8mha:////4E7cmrJ3qecgv8kRpaaAufh9/tWzdLU+2uXxwyU8Pe6DAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw84x9UGvgAAAA==[0m[Pipeline] sh
++ docker push nirrea839/spring-petclinic:3
+The push refers to repository [docker.io/nirrea839/spring-petclinic]
+d5c5b46448b5: Preparing
+c1501d4a3fef: Preparing
+dc9fa3d8b576: Preparing
+27ee19dc88f2: Preparing
+c8dd97366670: Preparing
+c1501d4a3fef: Layer already exists
+27ee19dc88f2: Layer already exists
+c8dd97366670: Layer already exists
+dc9fa3d8b576: Layer already exists
+d5c5b46448b5: Layer already exists
+3: digest: sha256:6181a8976115d4e8afcdb221ba85a132a0222c245247b5213fcccaed58787af6 size: 1372
+[8mha:////4Ngmo090KaI4X9QjedczRzhjM/i1MlcFF6lY/+NMUVRBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] }
+[8mha:////4Cn2ndf8dhdJkNf/qc6KOLgIgwDR83CkthbXDC5JdTMBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSEGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw9eAqiyvgAAAA==[0m[Pipeline] // withDockerRegistry
+[8mha:////4PeFZx6XI0gO4Hbt+NkZ6cctcDBmH24uoB4g+84Ak5R3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw9wAqrYvgAAAA==[0m[Pipeline] }
+[8mha:////4NJ6kRulV+8cQVYILCRs0Pnh91QGpua264lfqBQDJunrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigVIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QFvgP+KvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Aa3jjWY5JjvqQYaiEtBYXQG2BG8HkSxke63OjJBV7umAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w9Xwmx7vgAAAA==[0m[Pipeline] }
+[8mha:////4B0Hok1B+5AuMujPE6URqwyy90r+tqsnhzLNaB7HCqsTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSEGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZH3Lt6w9RhFQuvgAAAA==[0m[Pipeline] // script
+[8mha:////4Ny3P63gNUBv0rk0RI3/BoAAkcH11biwC80c9vJ/KnvLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w8SBgWovgAAAA==[0m[Pipeline] }
+[8mha:////4DQQ11TIuueeWFYlXqXjl4rhlu8n5rIfkg6Kr+gCIQ7JAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wENhFD6vgAAAA==[0m[Pipeline] // stage
+[8mha:////4Oj6nCB/BJcNMIBlRYJyKGESHHhuoP+IRGVRDj6NejZNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhEh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP4i41TO+AAAA[0m[Pipeline] }
+[8mha:////4AAl+vksmUaE8JvO0HDLdhzjMcxzrxa2piNqzaE6KufeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhEh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP7tbjo++AAAA[0m[Pipeline] // withEnv
+[8mha:////4AqRSsCWqKr+OfzowlSTireuT5NjV7w1aMPKYxnw5GKUAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAVulI+L0AAAA=[0m[Pipeline] }
+[8mha:////4PTAj7XpYH5HOVOhMKYlIulD9YWkR2RdFeWfZ1m7KJ95AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg9FVUxbvQAAAA==[0m[Pipeline] // node
+[8mha:////4PiZ2l25uFqCuh/JPazcHjxbIL45jBMu0d5sVRF3+bJfAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aw7lrnr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
