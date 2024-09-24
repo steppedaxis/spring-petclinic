@@ -12,7 +12,7 @@ services:
             - jb
     jenkins-slave:
         build: ./jenkins/slave
-        image: jenkins/slave:latest
+        image: mickaelguene/arm64-debian-jenkins-slave:latest
         # Removed container name to support scale out option 
         #container_name: jenkins-slave 
         restart: always
