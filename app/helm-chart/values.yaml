@@ -6,7 +6,16 @@ replicas: 2
 serviceType: "ClusterIP"
 port: 80
 targetPort: 8080
-mysqlImage: "mysql:5.7"
+db:
+  mysqlImage: "mysql:5.7"
+  mysqlLabel: "spring-petclinic-mysql"
+  mysqlLabelSelector: "spring-petclinic-mysql"
+  MYSQL_ROOT_PASSWORD: ""
+  MYSQL_ALLOW_EMPTY_PASSWORD: true
+  MYSQL_USER: "petclinic"
+  MYSQL_PASSWORD: "petclinic"
+  MYSQL_DATABASE: "petclinic"
+
 
 
 
