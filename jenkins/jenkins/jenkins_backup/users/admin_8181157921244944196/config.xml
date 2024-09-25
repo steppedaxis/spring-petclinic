@@ -51,7 +51,7 @@
       <timestamp>1727216590912</timestamp>
     </jenkins.security.LastGrantedAuthoritiesProperty>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$VdUdLdoXlDGwXdmziGDVGeIoI2fNKx/TAqAxarl55NllmYSD6u74m</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$FgidDfLKAiGpSde/oMSTPeA7llrYIKLx7IM89azRqsbSEjL6TQi6y</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
   </properties>
 </user>
