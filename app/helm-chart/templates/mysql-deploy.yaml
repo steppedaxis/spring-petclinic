@@ -4,18 +4,27 @@ metadata:
   name: {{ .Release.Name }}-mysql
   selector:
     matchLabels:
-      app: myapp
+      app: {{ .Values.db.mysqlLabelSelector }}
   template:
     metadata:
       labels:
-        app: myapp
+        app: {{ .Values.db.mysqlLabel }}
     spec:
       containers:
-      - name: myapp
-        image: <Image>
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
+      - name: mysql
+        image: {{ .Values.db.mysqlImage }}
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: {{ .Values.db.MYSQL_ROOT_PASSWORD }}
+        - name: MYSQL_ALLOW_EMPTY_PASSWORD
+          value: {{ .Values.db.MYSQL_ALLOW_EMPTY_PASSWORD }}
+        - name: MYSQL_USER
+          value: {{ .Values.db.MYSQL_USER }}
+        - name: MYSQL_PASSWORD
+          value: {{ .Values.db.MYSQL_PASSWORD }}
+        - name: MYSQL_DATABASE
+          value: {{ .Values.db.MYSQL_DATABASE }}
+    
+          
         ports:
-        - containerPort: <Port>
+        - containerPort: 3306
