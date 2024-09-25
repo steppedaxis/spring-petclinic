@@ -16,14 +16,14 @@ spec:
         image: {{ .Values.mysqlImage }}
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: {{ .Values.MYSQL_ROOT_PASSWORD }} 
+          value: "{{ .Values.MYSQL_ROOT_PASSWORD }}"   # Ensuring it's treated as a string
         - name: MYSQL_ALLOW_EMPTY_PASSWORD
-          value: {{ .Values.MYSQL_ALLOW_EMPTY_PASSWORD }}
+          value: "{{ .Values.MYSQL_ALLOW_EMPTY_PASSWORD }}"  # No need for 'quote', since it's a string in values.yaml
         - name: MYSQL_USER
-          value: {{ .Values.MYSQL_USER }}
+          value: "{{ .Values.MYSQL_USER }}"
         - name: MYSQL_PASSWORD
-          value: {{ .Values.MYSQL_PASSWORD }}
+          value: "{{ .Values.MYSQL_PASSWORD }}"
         - name: MYSQL_DATABASE
-          value: {{ .Values.MYSQL_DATABASE }}
+          value: "{{ .Values.MYSQL_DATABASE }}"
         ports:
         - containerPort: 3306
