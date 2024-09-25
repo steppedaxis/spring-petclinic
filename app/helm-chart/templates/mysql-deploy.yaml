@@ -16,9 +16,9 @@ spec:
         image: {{ .Values.mysqlImage }}
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: "{{ .Values.MYSQL_ROOT_PASSWORD }}"   # Ensuring it's treated as a string
+          value: "{{ .Values.MYSQL_ROOT_PASSWORD }}"
         - name: MYSQL_ALLOW_EMPTY_PASSWORD
-          value: "{{ .Values.MYSQL_ALLOW_EMPTY_PASSWORD }}"  # No need for 'quote', since it's a string in values.yaml
+          value: "{{ .Values.MYSQL_ALLOW_EMPTY_PASSWORD }}" 
         - name: MYSQL_USER
           value: "{{ .Values.MYSQL_USER }}"
         - name: MYSQL_PASSWORD
