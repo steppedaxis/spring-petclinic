@@ -1,4 +1,3 @@
-name: {{ .Release.Name }}
 image: "nirrea839/spring-petclinic:latest"
 label: "spring-petclinic"
 labelSelector: "spring-petclinic"
