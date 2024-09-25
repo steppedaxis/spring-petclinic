@@ -1,7 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Release.Name }}-mysql
+  name: {{ .Values.name }}-mysql
+spec:                               
+  replicas: 1
   selector:
     matchLabels:
       app: {{ .Values.db.mysqlLabelSelector }}
@@ -15,7 +17,7 @@ metadata:
         image: {{ .Values.db.mysqlImage }}
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: {{ .Values.db.MYSQL_ROOT_PASSWORD }}
+          value: {{ .Values.db.MYSQL_ROOT_PASSWORD }} 
         - name: MYSQL_ALLOW_EMPTY_PASSWORD
           value: {{ .Values.db.MYSQL_ALLOW_EMPTY_PASSWORD }}
         - name: MYSQL_USER
@@ -24,7 +26,5 @@ metadata:
           value: {{ .Values.db.MYSQL_PASSWORD }}
         - name: MYSQL_DATABASE
           value: {{ .Values.db.MYSQL_DATABASE }}
-    
-          
         ports:
         - containerPort: 3306
