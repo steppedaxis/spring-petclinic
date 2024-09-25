@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: {{ .Values.name }}-mysql
 spec:                               
-  replicas: 1
   selector:
     matchLabels:
       app: {{ .Values.mysqlLabelSelector }}
